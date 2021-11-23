@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main_Screen.unity
+    guid: a955d2bd352886643b2968ff29633b06
+  - enabled: 1
+    path: Assets/Scenes/Social_Life.unity
+    guid: 360417967f90e9f4a92b3ad64285fcf6
+  - enabled: 1
+    path: Assets/Scenes/Student_Life.unity
+    guid: 40a0902459d723b49804ead1cd1908c6
+  - enabled: 0
+    path: Assets/Scenes/Greek_Life.unity
+    guid: 690911424f4af6c4c81e57c13050bc9a
+  - enabled: 1
+    path: Assets/Scenes/Clubs.unity
+    guid: 33c8308446d2b7b46aa56df2782e53fb
+  - enabled: 0
+    path: Assets/Scenes/BowlingScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/BeyondGolden.unity
+    guid: 4191e50c484809341b4ced952cdaf034
+  - enabled: 1
+    path: Assets/Scenes/Mountains.unity
+    guid: 3d89f97faaf71e144af6f3a8d80ff549
+  - enabled: 1
+    path: Assets/Scenes/Tour.unity
+    guid: e22b51c89623d5747bfbba16695c1052
+  - enabled: 1
+    path: Assets/Scenes/Trad_Dorms.unity
+    guid: d9fe76ffbbf9c3a4eb74a8c7bfa5cec4
+  - enabled: 1
+    path: Assets/Scenes/CoorsTek.unity
+    guid: b34de5af607ae4c4d99b882989cfa914
+  - enabled: 1
+    path: Assets/Scenes/Brown.unity
+    guid: 5ca6e2fa4f94180488bdb8758c1fd782
+  - enabled: 1
+    path: Assets/Scenes/Pres_House.unity
+    guid: cfab8bbddff7f3c4183a85d13c50780b
+  - enabled: 1
+    path: Assets/Scenes/ORC.unity
+    guid: 5bedd3617aa1b2a469f6dfd40ea5a994
+  - enabled: 1
+    path: Assets/Scenes/Plaza.unity
+    guid: 6ef7c0e6504c0a646a0a235146c7d91e
+  - enabled: 1
+    path: Assets/Scenes/Rec_Center.unity
+    guid: e302d46cf3720e9498aa5e25ff6ee2c6
+  - enabled: 0
+    path: Assets/Scenes/Dorms.unity
+    guid: ddc412500baf83447b919bb2ff4717bd
+  - enabled: 0
+    path: Assets/Scenes/Fac.unity
+    guid: d35c5b86e8fadde458892da32e1acd78
+  - enabled: 1
+    path: Assets/Scenes/Academics.unity
+    guid: 9d6e58165171f3146b3df16a16c165f9
+  - enabled: 1
+    path: Assets/Scenes/Professor.unity
+    guid: a9af4562207a7d4478053e89ab39f50a
+  - enabled: 0
+    path: Assets/Scenes/Labs.unity
+    guid: 90357640a1fa3444eb5ef74157a0f871
+  - enabled: 1
+    path: Assets/Scenes/Sports.unity
+    guid: d857810467fcd6048acf4f70f4797818
+  - enabled: 1
+    path: Assets/Scenes/Golden.unity
+    guid: 369741538e8175a408c7c4412059c047
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7ee2413419a1ca349b4e513e61ef8686, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2301f393d995ba24ca1a1830e3f1fca9, type: 2}
