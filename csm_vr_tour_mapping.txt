@@ -247,11 +247,6 @@ com.unity3d.player.IPermissionRequestCallbacks -> com.unity3d.player.IPermission
 com.unity3d.player.IUnityPlayerLifecycleEvents -> com.unity3d.player.IUnityPlayerLifecycleEvents:
     void onUnityPlayerUnloaded() -> onUnityPlayerUnloaded
     void onUnityPlayerQuitted() -> onUnityPlayerQuitted
-com.unity3d.player.MultiWindowSupport -> com.unity3d.player.MultiWindowSupport:
-    java.lang.String RESIZABLE_WINDOW -> RESIZABLE_WINDOW
-    void <init>() -> <init>
-    boolean isInMultiWindowMode(android.app.Activity) -> isInMultiWindowMode
-    boolean getAllowResizableWindow(android.app.Activity) -> getAllowResizableWindow
 com.unity3d.player.NativeLoader -> com.unity3d.player.NativeLoader:
     boolean load(java.lang.String) -> load
     boolean unload() -> unload
@@ -454,7 +449,7 @@ com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
     java.lang.String loadNative(java.lang.String) -> loadNative
     void unloadNative() -> unloadNative
     java.lang.String getUnityNativeLibraryPath(android.content.Context) -> getUnityNativeLibraryPath
-    void showSoftInput(java.lang.String,int,boolean,boolean,boolean,boolean,java.lang.String,int,boolean,boolean) -> showSoftInput
+    void showSoftInput(java.lang.String,int,boolean,boolean,boolean,boolean,java.lang.String,int,boolean) -> showSoftInput
     void hideSoftInput() -> hideSoftInput
     void setSoftInputStr(java.lang.String) -> setSoftInputStr
     void setCharacterLimit(int) -> setCharacterLimit
@@ -633,9 +628,8 @@ com.unity3d.player.UnityPlayer$4 -> com.unity3d.player.UnityPlayer$4:
     java.lang.String h -> h
     int i -> i
     boolean j -> j
-    boolean k -> k
-    com.unity3d.player.UnityPlayer l -> l
-    void <init>(com.unity3d.player.UnityPlayer,com.unity3d.player.UnityPlayer,java.lang.String,int,boolean,boolean,boolean,boolean,java.lang.String,int,boolean,boolean) -> <init>
+    com.unity3d.player.UnityPlayer k -> k
+    void <init>(com.unity3d.player.UnityPlayer,com.unity3d.player.UnityPlayer,java.lang.String,int,boolean,boolean,boolean,boolean,java.lang.String,int,boolean) -> <init>
     void run() -> run
 com.unity3d.player.UnityPlayer$4$1 -> com.unity3d.player.UnityPlayer$4$1:
     com.unity3d.player.UnityPlayer$4 a -> a
@@ -740,8 +734,6 @@ com.unity3d.player.UnityPlayerActivity -> com.unity3d.player.UnityPlayerActivity
     void onUnityPlayerQuitted() -> onUnityPlayerQuitted
     void onNewIntent(android.content.Intent) -> onNewIntent
     void onDestroy() -> onDestroy
-    void onStop() -> onStop
-    void onStart() -> onStart
     void onPause() -> onPause
     void onResume() -> onResume
     void onLowMemory() -> onLowMemory
@@ -925,13 +917,12 @@ com.unity3d.player.f$a -> com.unity3d.player.f$a:
     void onPixelCopyFinished(int) -> onPixelCopyFinished
     void a(android.view.SurfaceView) -> a
 com.unity3d.player.g -> com.unity3d.player.g:
-    android.content.Context b -> b
-    com.unity3d.player.UnityPlayer c -> c
+    android.content.Context a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    int c -> c
     int d -> d
     int e -> e
-    int f -> f
-    boolean a -> a
-    void <init>(android.content.Context,com.unity3d.player.UnityPlayer,java.lang.String,int,boolean,boolean,boolean,java.lang.String,int,boolean,boolean) -> <init>
+    void <init>(android.content.Context,com.unity3d.player.UnityPlayer,java.lang.String,int,boolean,boolean,boolean,java.lang.String,int,boolean) -> <init>
     void a(boolean) -> a
     void a(android.widget.EditText,java.lang.String,int,boolean,boolean,boolean,java.lang.String,int) -> a
     void afterTextChanged(android.text.Editable) -> afterTextChanged
@@ -941,7 +932,6 @@ com.unity3d.player.g -> com.unity3d.player.g:
     void a(java.lang.String,boolean) -> a
     void onClick(android.view.View) -> onClick
     void onBackPressed() -> onBackPressed
-    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
     android.view.View createSoftInputView() -> createSoftInputView
     java.lang.String b() -> b
     void a(java.lang.String) -> a
@@ -1011,8 +1001,8 @@ com.unity3d.player.j -> com.unity3d.player.j:
     void c(boolean) -> c
     boolean e() -> e
     void d(boolean) -> d
-    boolean e(boolean) -> e
     boolean f() -> f
+    boolean g() -> g
     java.lang.String toString() -> toString
     void <clinit>() -> <clinit>
 com.unity3d.player.k -> com.unity3d.player.k:

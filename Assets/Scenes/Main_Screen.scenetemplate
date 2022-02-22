@@ -62,7 +62,7 @@ MonoBehaviour:
   templateScene: {fileID: 102900000, guid: a955d2bd352886643b2968ff29633b06, type: 3}
   templateName: Lobby Scene
   description: Template for all 360 Lobby Scenes
-  preview: {fileID: 0}
+  preview: {fileID: -1915509135430222656}
   dependencies:
   - dependency: {fileID: 2800000, guid: 61319392ca0c3a9479933394ace77834, type: 3}
     instantiationMode: 0
