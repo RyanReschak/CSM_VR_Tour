@@ -1,0 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+using TMPro;
+
+public class KeyboardButton : MonoBehaviour
+{
+    Keyboard keyboard;
+    TextMeshProUGUI buttonText;
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        keyboard = GetComponentInParent<Keyboard>();
+        buttonText = GetComponentInChildren<TextMeshProUGUI>();
+        if (buttonText.text.Length == 1)
+        {
+            NameToButtonText();
+            GetComponentInChildren<ButtonVR>().onRelease.AddListener(delegate { keyboard.InserChar(buttonText.text); });
+
+        }
+    }
+
+    public void NameToButtonText()
+    {
+        buttonText.text = gameObject.name;
+    }
+}
