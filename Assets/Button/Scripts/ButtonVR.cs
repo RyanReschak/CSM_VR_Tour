@@ -13,9 +13,12 @@ public class ButtonVR : MonoBehaviour
     public GameObject button;
     public UnityEvent onPress;
     public UnityEvent onRelease;
+    public float waitTime = 2.0f;
     GameObject presser;
     AudioSource sound;
     bool isPressed;
+
+    private float timeSincePress = 0.0f;
 
     void Start()
     {
@@ -40,17 +43,12 @@ public class ButtonVR : MonoBehaviour
         if (other.gameObject == presser)
         {
             button.transform.localPosition = new Vector3(0, 0.015f, 0);
-            onRelease.Invoke();
+            if (Time.time - timeSincePress > waitTime)
+            {
+                onRelease.Invoke();
+                timeSincePress = Time.time;
+            }
             isPressed = false;
         }
     }
-
-    public void SpawnSphere()
-    {
-        GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-        sphere.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-        sphere.transform.localPosition = new Vector3(0, 1, 2);
-        sphere.AddComponent<Rigidbody>();
-    }
-
 }
