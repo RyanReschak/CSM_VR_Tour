@@ -23,6 +23,11 @@ namespace YoutubePlayer
             videoPlayer.prepareCompleted += VideoPlayerPreparedCompleted;
         }
 
+        void Start()
+        {
+            Prepare();
+        }
+
         void VideoPlayerPreparedCompleted(VideoPlayer source)
         {
             bt_play.interactable = source.isPrepared;
