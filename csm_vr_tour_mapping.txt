@@ -83,87 +83,8 @@ com.unity.oculus.OculusUnity -> com.unity.oculus.OculusUnity:
     boolean getLowOverheadMode() -> getLowOverheadMode
     boolean getIsOnOculusHardware() -> getIsOnOculusHardware
     void lambda$initOculus$0() -> lambda$initOculus$0
-com.unity3d.player.AssetPackManagerWrapper -> com.unity3d.player.AssetPackManagerWrapper:
-    com.unity3d.player.AssetPackManagerWrapper a -> a
-    com.google.android.play.core.assetpacks.AssetPackManager b -> b
-    java.util.HashSet c -> c
-    java.lang.Object d -> d
-    void <init>(android.content.Context) -> <init>
-    com.unity3d.player.AssetPackManagerWrapper getInstance() -> getInstance
-    com.unity3d.player.AssetPackManagerWrapper init(android.content.Context) -> init
-    void getAssetPackState(java.lang.String,com.unity3d.player.IAssetPackManagerStatusQueryCallback) -> getAssetPackState
-    void getAssetPackStates(java.lang.String[],com.unity3d.player.IAssetPackManagerStatusQueryCallback) -> getAssetPackStates
-    void downloadAssetPack(java.lang.String,com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> downloadAssetPack
-    void downloadAssetPacks(java.lang.String[],com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> downloadAssetPacks
-    void a(java.lang.String,com.unity3d.player.IAssetPackManagerDownloadStatusCallback,android.os.Looper) -> a
-    java.lang.Object registerDownloadStatusListener(com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> registerDownloadStatusListener
-    void unregisterDownloadStatusListener(java.lang.Object) -> unregisterDownloadStatusListener
-    void requestToUseMobileData(android.app.Activity,com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback) -> requestToUseMobileData
-    java.lang.String getAssetPackPath(java.lang.String) -> getAssetPackPath
-    void cancelAssetPackDownload(java.lang.String) -> cancelAssetPackDownload
-    void cancelAssetPackDownloads(java.lang.String[]) -> cancelAssetPackDownloads
-    void removeAssetPack(java.lang.String) -> removeAssetPack
-    boolean playCoreApiMissing() -> playCoreApiMissing
-    void b() -> b
-    com.unity3d.player.AssetPackManagerWrapper a() -> a
-    void a(com.unity3d.player.AssetPackManagerWrapper,java.lang.String,com.unity3d.player.IAssetPackManagerDownloadStatusCallback,android.os.Looper) -> a
-    java.util.HashSet a(com.unity3d.player.AssetPackManagerWrapper) -> a
-    java.lang.Object b(com.unity3d.player.AssetPackManagerWrapper) -> b
-    java.lang.Object c(com.unity3d.player.AssetPackManagerWrapper) -> c
-com.unity3d.player.AssetPackManagerWrapper$a -> com.unity3d.player.AssetPackManagerWrapper$a:
-    java.util.Set a -> a
-    java.lang.String b -> b
-    int c -> c
-    long d -> d
-    long e -> e
-    int f -> f
-    int g -> g
-    void <init>(java.util.Set,java.lang.String,int,long,long,int,int) -> <init>
-    void run() -> run
-com.unity3d.player.AssetPackManagerWrapper$b -> com.unity3d.player.AssetPackManagerWrapper$b:
-    java.util.HashSet b -> b
-    android.os.Looper c -> c
-    com.unity3d.player.AssetPackManagerWrapper a -> a
-    void <init>(com.unity3d.player.AssetPackManagerWrapper,com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> <init>
-    void <init>(com.unity3d.player.AssetPackManagerWrapper,com.unity3d.player.IAssetPackManagerDownloadStatusCallback,android.os.Looper) -> <init>
-    void a(com.google.android.play.core.assetpacks.AssetPackState) -> a
-    void a(com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> a
-    java.util.Set a(java.util.HashSet) -> a
-    void onStateUpdate(java.lang.Object) -> onStateUpdate
-com.unity3d.player.AssetPackManagerWrapper$c -> com.unity3d.player.AssetPackManagerWrapper$c:
-    com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback a -> a
-    android.os.Looper b -> b
-    void <init>(com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback) -> <init>
-    void a(java.lang.Integer) -> a
-    void onSuccess(java.lang.Object) -> onSuccess
-com.unity3d.player.AssetPackManagerWrapper$c$a -> com.unity3d.player.AssetPackManagerWrapper$c$a:
-    com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback a -> a
-    boolean b -> b
-    void <init>(com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback,boolean) -> <init>
-    void run() -> run
-com.unity3d.player.AssetPackManagerWrapper$d -> com.unity3d.player.AssetPackManagerWrapper$d:
-    com.unity3d.player.IAssetPackManagerDownloadStatusCallback a -> a
-    android.os.Looper b -> b
-    java.lang.String c -> c
-    void <init>(com.unity3d.player.IAssetPackManagerDownloadStatusCallback,java.lang.String) -> <init>
-    void onComplete(com.google.android.play.core.tasks.Task) -> onComplete
-    void a(java.lang.String,int,int,long) -> a
-com.unity3d.player.AssetPackManagerWrapper$e -> com.unity3d.player.AssetPackManagerWrapper$e:
-    com.unity3d.player.IAssetPackManagerStatusQueryCallback a -> a
-    android.os.Looper b -> b
-    java.lang.String[] c -> c
-    void <init>(com.unity3d.player.IAssetPackManagerStatusQueryCallback,java.lang.String[]) -> <init>
-    void onComplete(com.google.android.play.core.tasks.Task) -> onComplete
-com.unity3d.player.AssetPackManagerWrapper$e$a -> com.unity3d.player.AssetPackManagerWrapper$e$a:
-    com.unity3d.player.IAssetPackManagerStatusQueryCallback a -> a
-    long b -> b
-    java.lang.String[] c -> c
-    int[] d -> d
-    int[] e -> e
-    void <init>(com.unity3d.player.IAssetPackManagerStatusQueryCallback,long,java.lang.String[],int[],int[]) -> <init>
-    void run() -> run
 com.unity3d.player.AudioVolumeHandler -> com.unity3d.player.AudioVolumeHandler:
-    com.unity3d.player.a a -> a
+    com.unity3d.player.b a -> a
     void onAudioVolumeChanged(int) -> onAudioVolumeChanged
     void <init>(android.content.Context) -> <init>
     void a() -> a
@@ -176,7 +97,7 @@ com.unity3d.player.BuildConfig -> com.unity3d.player.BuildConfig:
     void <init>() -> <init>
 com.unity3d.player.Camera2Wrapper -> com.unity3d.player.Camera2Wrapper:
     android.content.Context a -> a
-    com.unity3d.player.b b -> b
+    com.unity3d.player.c b -> b
     int c -> c
     void <init>(android.content.Context) -> <init>
     void a() -> a
@@ -247,6 +168,11 @@ com.unity3d.player.IPermissionRequestCallbacks -> com.unity3d.player.IPermission
 com.unity3d.player.IUnityPlayerLifecycleEvents -> com.unity3d.player.IUnityPlayerLifecycleEvents:
     void onUnityPlayerUnloaded() -> onUnityPlayerUnloaded
     void onUnityPlayerQuitted() -> onUnityPlayerQuitted
+com.unity3d.player.MultiWindowSupport -> com.unity3d.player.MultiWindowSupport:
+    java.lang.String RESIZABLE_WINDOW -> RESIZABLE_WINDOW
+    void <init>() -> <init>
+    boolean isInMultiWindowMode(android.app.Activity) -> isInMultiWindowMode
+    boolean getAllowResizableWindow(android.app.Activity) -> getAllowResizableWindow
 com.unity3d.player.NativeLoader -> com.unity3d.player.NativeLoader:
     boolean load(java.lang.String) -> load
     boolean unload() -> unload
@@ -274,6 +200,26 @@ com.unity3d.player.PlatformSupport -> com.unity3d.player.PlatformSupport:
     boolean NOUGAT_SUPPORT -> NOUGAT_SUPPORT
     void <init>() -> <init>
     void <clinit>() -> <clinit>
+com.unity3d.player.PlayAssetDeliveryUnityWrapper -> com.unity3d.player.PlayAssetDeliveryUnityWrapper:
+    com.unity3d.player.PlayAssetDeliveryUnityWrapper a -> a
+    com.unity3d.player.d b -> b
+    void <init>(android.content.Context) -> <init>
+    com.unity3d.player.PlayAssetDeliveryUnityWrapper getInstance() -> getInstance
+    com.unity3d.player.PlayAssetDeliveryUnityWrapper init(android.content.Context) -> init
+    com.unity3d.player.d a(android.content.Context) -> a
+    void getAssetPackState(java.lang.String,com.unity3d.player.IAssetPackManagerStatusQueryCallback) -> getAssetPackState
+    void getAssetPackStates(java.lang.String[],com.unity3d.player.IAssetPackManagerStatusQueryCallback) -> getAssetPackStates
+    void downloadAssetPack(java.lang.String,com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> downloadAssetPack
+    void downloadAssetPacks(java.lang.String[],com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> downloadAssetPacks
+    java.lang.Object registerDownloadStatusListener(com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> registerDownloadStatusListener
+    void unregisterDownloadStatusListener(java.lang.Object) -> unregisterDownloadStatusListener
+    void requestToUseMobileData(android.app.Activity,com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback) -> requestToUseMobileData
+    java.lang.String getAssetPackPath(java.lang.String) -> getAssetPackPath
+    void cancelAssetPackDownload(java.lang.String) -> cancelAssetPackDownload
+    void cancelAssetPackDownloads(java.lang.String[]) -> cancelAssetPackDownloads
+    void removeAssetPack(java.lang.String) -> removeAssetPack
+    boolean playCoreApiMissing() -> playCoreApiMissing
+    void a() -> a
 com.unity3d.player.R -> com.unity3d.player.R:
     void <init>() -> <init>
 com.unity3d.player.R$style -> com.unity3d.player.R$style:
@@ -348,7 +294,7 @@ com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
     int mInitialScreenOrientation -> mInitialScreenOrientation
     boolean mMainDisplayOverride -> mMainDisplayOverride
     boolean mIsFullscreen -> mIsFullscreen
-    com.unity3d.player.j mState -> mState
+    com.unity3d.player.l mState -> mState
     java.util.concurrent.ConcurrentLinkedQueue m_Events -> m_Events
     android.content.BroadcastReceiver mKillingIsMyBusiness -> mKillingIsMyBusiness
     android.view.OrientationEventListener mOrientationListener -> mOrientationListener
@@ -360,8 +306,8 @@ com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
     com.unity3d.player.UnityPlayer$c m_PhoneCallListener -> m_PhoneCallListener
     android.telephony.TelephonyManager m_TelephonyManager -> m_TelephonyManager
     android.content.ClipboardManager m_ClipboardManager -> m_ClipboardManager
-    com.unity3d.player.h m_SplashScreen -> m_SplashScreen
-    com.unity3d.player.f m_PersistentUnitySurface -> m_PersistentUnitySurface
+    com.unity3d.player.j m_SplashScreen -> m_SplashScreen
+    com.unity3d.player.h m_PersistentUnitySurface -> m_PersistentUnitySurface
     com.unity3d.player.GoogleARCoreApi m_ARCoreApi -> m_ARCoreApi
     com.unity3d.player.UnityPlayer$a m_FakeListener -> m_FakeListener
     com.unity3d.player.Camera2Wrapper m_Camera2Wrapper -> m_Camera2Wrapper
@@ -374,8 +320,8 @@ com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
     android.view.SurfaceView mGlView -> mGlView
     boolean mQuitting -> mQuitting
     boolean mProcessKillRequested -> mProcessKillRequested
-    com.unity3d.player.l mVideoPlayerProxy -> mVideoPlayerProxy
-    com.unity3d.player.g mSoftInputDialog -> mSoftInputDialog
+    com.unity3d.player.n mVideoPlayerProxy -> mVideoPlayerProxy
+    com.unity3d.player.i mSoftInputDialog -> mSoftInputDialog
     java.lang.String SPLASH_ENABLE_METADATA_NAME -> SPLASH_ENABLE_METADATA_NAME
     java.lang.String SPLASH_MODE_METADATA_NAME -> SPLASH_MODE_METADATA_NAME
     java.lang.String ARCORE_ENABLE_METADATA_NAME -> ARCORE_ENABLE_METADATA_NAME
@@ -449,7 +395,7 @@ com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
     java.lang.String loadNative(java.lang.String) -> loadNative
     void unloadNative() -> unloadNative
     java.lang.String getUnityNativeLibraryPath(android.content.Context) -> getUnityNativeLibraryPath
-    void showSoftInput(java.lang.String,int,boolean,boolean,boolean,boolean,java.lang.String,int,boolean) -> showSoftInput
+    void showSoftInput(java.lang.String,int,boolean,boolean,boolean,boolean,java.lang.String,int,boolean,boolean) -> showSoftInput
     void hideSoftInput() -> hideSoftInput
     void setSoftInputStr(java.lang.String) -> setSoftInputStr
     void setCharacterLimit(int) -> setCharacterLimit
@@ -466,6 +412,9 @@ com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
     boolean initializeGoogleAr() -> initializeGoogleAr
     boolean showVideoPlayer(java.lang.String,int,int,int,boolean,int,int) -> showVideoPlayer
     void pauseJavaAndCallUnloadCallback() -> pauseJavaAndCallUnloadCallback
+    boolean isUaaLUseCase() -> isUaaLUseCase
+    int getUaaLLaunchProcessType() -> getUaaLLaunchProcessType
+    java.lang.String getProcessName() -> getProcessName
     android.content.pm.ApplicationInfo getApplicationInfo() -> getApplicationInfo
     boolean getSplashEnabled() -> getSplashEnabled
     boolean getARCoreEnabled() -> getARCoreEnabled
@@ -498,10 +447,10 @@ com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
     void access$500(com.unity3d.player.UnityPlayer,java.lang.String) -> access$500
     void access$600(com.unity3d.player.UnityPlayer,int,int) -> access$600
     void access$800(com.unity3d.player.UnityPlayer,boolean) -> access$800
-    com.unity3d.player.h access$1000(com.unity3d.player.UnityPlayer) -> access$1000
-    com.unity3d.player.h access$1002(com.unity3d.player.UnityPlayer,com.unity3d.player.h) -> access$1002
+    com.unity3d.player.j access$1000(com.unity3d.player.UnityPlayer) -> access$1000
+    com.unity3d.player.j access$1002(com.unity3d.player.UnityPlayer,com.unity3d.player.j) -> access$1002
     void access$1100(com.unity3d.player.UnityPlayer,int,android.view.Surface) -> access$1100
-    com.unity3d.player.f access$1200(com.unity3d.player.UnityPlayer) -> access$1200
+    com.unity3d.player.h access$1200(com.unity3d.player.UnityPlayer) -> access$1200
     void access$1300(com.unity3d.player.UnityPlayer) -> access$1300
     android.view.SurfaceView access$1400(com.unity3d.player.UnityPlayer) -> access$1400
     void access$1500(com.unity3d.player.UnityPlayer) -> access$1500
@@ -521,7 +470,7 @@ com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
     void access$3000(com.unity3d.player.UnityPlayer,int,int) -> access$3000
     void access$3100(com.unity3d.player.UnityPlayer,int,int,int,int) -> access$3100
     void access$3200(com.unity3d.player.UnityPlayer,boolean) -> access$3200
-    com.unity3d.player.l access$3302(com.unity3d.player.UnityPlayer,com.unity3d.player.l) -> access$3302
+    com.unity3d.player.n access$3302(com.unity3d.player.UnityPlayer,com.unity3d.player.n) -> access$3302
     boolean access$3400(com.unity3d.player.UnityPlayer) -> access$3400
     int access$3500(com.unity3d.player.UnityPlayer) -> access$3500
     com.unity3d.player.IUnityPlayerLifecycleEvents access$3600(com.unity3d.player.UnityPlayer) -> access$3600
@@ -628,8 +577,9 @@ com.unity3d.player.UnityPlayer$4 -> com.unity3d.player.UnityPlayer$4:
     java.lang.String h -> h
     int i -> i
     boolean j -> j
-    com.unity3d.player.UnityPlayer k -> k
-    void <init>(com.unity3d.player.UnityPlayer,com.unity3d.player.UnityPlayer,java.lang.String,int,boolean,boolean,boolean,boolean,java.lang.String,int,boolean) -> <init>
+    boolean k -> k
+    com.unity3d.player.UnityPlayer l -> l
+    void <init>(com.unity3d.player.UnityPlayer,com.unity3d.player.UnityPlayer,java.lang.String,int,boolean,boolean,boolean,boolean,java.lang.String,int,boolean,boolean) -> <init>
     void run() -> run
 com.unity3d.player.UnityPlayer$4$1 -> com.unity3d.player.UnityPlayer$4$1:
     com.unity3d.player.UnityPlayer$4 a -> a
@@ -734,6 +684,8 @@ com.unity3d.player.UnityPlayerActivity -> com.unity3d.player.UnityPlayerActivity
     void onUnityPlayerQuitted() -> onUnityPlayerQuitted
     void onNewIntent(android.content.Intent) -> onNewIntent
     void onDestroy() -> onDestroy
+    void onStop() -> onStop
+    void onStart() -> onStart
     void onPause() -> onPause
     void onResume() -> onResume
     void onLowMemory() -> onLowMemory
@@ -746,25 +698,98 @@ com.unity3d.player.UnityPlayerActivity -> com.unity3d.player.UnityPlayerActivity
     boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
     boolean onGenericMotionEvent(android.view.MotionEvent) -> onGenericMotionEvent
 com.unity3d.player.a -> com.unity3d.player.a:
+    com.unity3d.player.a a -> a
+    com.google.android.play.core.assetpacks.AssetPackManager b -> b
+    java.util.HashSet c -> c
+    java.lang.Object d -> d
+    void <init>(android.content.Context) -> <init>
+    com.unity3d.player.d a(android.content.Context) -> a
+    void a(java.lang.String[],com.unity3d.player.IAssetPackManagerStatusQueryCallback) -> a
+    void a(java.lang.String[],com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> a
+    void a(java.lang.String,com.unity3d.player.IAssetPackManagerDownloadStatusCallback,android.os.Looper) -> a
+    java.lang.Object a(com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> a
+    void a(java.lang.Object) -> a
+    void a(android.app.Activity,com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback) -> a
+    java.lang.String a(java.lang.String) -> a
+    void a(java.lang.String[]) -> a
+    void b(java.lang.String) -> b
+    com.unity3d.player.a a() -> a
+    void a(com.unity3d.player.a,java.lang.String,com.unity3d.player.IAssetPackManagerDownloadStatusCallback,android.os.Looper) -> a
+    java.util.HashSet a(com.unity3d.player.a) -> a
+    java.lang.Object b(com.unity3d.player.a) -> b
+    java.lang.Object c(com.unity3d.player.a) -> c
+com.unity3d.player.a$a -> com.unity3d.player.a$a:
+    java.util.Set a -> a
+    java.lang.String b -> b
+    int c -> c
+    long d -> d
+    long e -> e
+    int f -> f
+    int g -> g
+    void <init>(java.util.Set,java.lang.String,int,long,long,int,int) -> <init>
+    void run() -> run
+com.unity3d.player.a$b -> com.unity3d.player.a$b:
+    java.util.HashSet b -> b
+    android.os.Looper c -> c
+    com.unity3d.player.a a -> a
+    void <init>(com.unity3d.player.a,com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> <init>
+    void <init>(com.unity3d.player.a,com.unity3d.player.IAssetPackManagerDownloadStatusCallback,android.os.Looper) -> <init>
+    void a(com.google.android.play.core.assetpacks.AssetPackState) -> a
+    void a(com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> a
+    java.util.Set a(java.util.HashSet) -> a
+    void onStateUpdate(java.lang.Object) -> onStateUpdate
+com.unity3d.player.a$c -> com.unity3d.player.a$c:
+    com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback a -> a
+    android.os.Looper b -> b
+    void <init>(com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback) -> <init>
+    void a(java.lang.Integer) -> a
+    void onSuccess(java.lang.Object) -> onSuccess
+com.unity3d.player.a$c$a -> com.unity3d.player.a$c$a:
+    com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback a -> a
+    boolean b -> b
+    void <init>(com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback,boolean) -> <init>
+    void run() -> run
+com.unity3d.player.a$d -> com.unity3d.player.a$d:
+    com.unity3d.player.IAssetPackManagerDownloadStatusCallback a -> a
+    android.os.Looper b -> b
+    java.lang.String c -> c
+    void <init>(com.unity3d.player.IAssetPackManagerDownloadStatusCallback,java.lang.String) -> <init>
+    void onComplete(com.google.android.play.core.tasks.Task) -> onComplete
+    void a(java.lang.String,int,int,long) -> a
+com.unity3d.player.a$e -> com.unity3d.player.a$e:
+    com.unity3d.player.IAssetPackManagerStatusQueryCallback a -> a
+    android.os.Looper b -> b
+    java.lang.String[] c -> c
+    void <init>(com.unity3d.player.IAssetPackManagerStatusQueryCallback,java.lang.String[]) -> <init>
+    void onComplete(com.google.android.play.core.tasks.Task) -> onComplete
+com.unity3d.player.a$e$a -> com.unity3d.player.a$e$a:
+    com.unity3d.player.IAssetPackManagerStatusQueryCallback a -> a
+    long b -> b
+    java.lang.String[] c -> c
+    int[] d -> d
+    int[] e -> e
+    void <init>(com.unity3d.player.IAssetPackManagerStatusQueryCallback,long,java.lang.String[],int[],int[]) -> <init>
+    void run() -> run
+com.unity3d.player.b -> com.unity3d.player.b:
     android.content.Context a -> a
     android.media.AudioManager b -> b
-    com.unity3d.player.a$a c -> c
+    com.unity3d.player.b$a c -> c
     void <init>(android.content.Context) -> <init>
-    void a(com.unity3d.player.a$b) -> a
+    void a(com.unity3d.player.b$b) -> a
     void a() -> a
-com.unity3d.player.a$a -> com.unity3d.player.a$a:
-    com.unity3d.player.a$b b -> b
+com.unity3d.player.b$a -> com.unity3d.player.b$a:
+    com.unity3d.player.b$b b -> b
     android.media.AudioManager c -> c
     int d -> d
     int e -> e
-    com.unity3d.player.a a -> a
-    void <init>(com.unity3d.player.a,android.os.Handler,android.media.AudioManager,int,com.unity3d.player.a$b) -> <init>
+    com.unity3d.player.b a -> a
+    void <init>(com.unity3d.player.b,android.os.Handler,android.media.AudioManager,int,com.unity3d.player.b$b) -> <init>
     void onChange(boolean,android.net.Uri) -> onChange
     boolean deliverSelfNotifications() -> deliverSelfNotifications
-com.unity3d.player.a$b -> com.unity3d.player.a$b:
+com.unity3d.player.b$b -> com.unity3d.player.b$b:
     void onAudioVolumeChanged(int) -> onAudioVolumeChanged
-com.unity3d.player.b -> com.unity3d.player.b:
-    com.unity3d.player.c a -> a
+com.unity3d.player.c -> com.unity3d.player.c:
+    com.unity3d.player.e a -> a
     android.hardware.camera2.CameraManager b -> b
     java.lang.String[] c -> c
     android.hardware.camera2.CameraDevice d -> d
@@ -794,7 +819,7 @@ com.unity3d.player.b -> com.unity3d.player.b:
     android.hardware.camera2.CameraDevice$StateCallback B -> B
     android.media.ImageReader$OnImageAvailableListener C -> C
     android.graphics.SurfaceTexture$OnFrameAvailableListener D -> D
-    void <init>(com.unity3d.player.c) -> <init>
+    void <init>(com.unity3d.player.e) -> <init>
     android.hardware.camera2.CameraManager b(android.content.Context) -> b
     java.lang.String[] c(android.content.Context) -> c
     int a(android.content.Context) -> a
@@ -821,64 +846,73 @@ com.unity3d.player.b -> com.unity3d.player.b:
     void a(android.hardware.camera2.CameraDevice) -> a
     android.graphics.Rect a(android.util.Size[],double,double) -> a
     int a(android.util.Range[],int) -> a
-    void a(com.unity3d.player.b,java.lang.Object) -> a
-    android.hardware.camera2.CameraDevice a(com.unity3d.player.b) -> a
-    java.lang.Object b(com.unity3d.player.b) -> b
-    android.hardware.camera2.CameraCaptureSession a(com.unity3d.player.b,android.hardware.camera2.CameraCaptureSession) -> a
-    android.hardware.camera2.CaptureRequest$Builder a(com.unity3d.player.b,android.hardware.camera2.CaptureRequest$Builder) -> a
-    android.view.Surface c(com.unity3d.player.b) -> c
-    android.hardware.camera2.CaptureRequest$Builder d(com.unity3d.player.b) -> d
-    android.media.ImageReader e(com.unity3d.player.b) -> e
-    android.util.Range f(com.unity3d.player.b) -> f
-    void g(com.unity3d.player.b) -> g
-    android.hardware.camera2.CameraDevice a(com.unity3d.player.b,android.hardware.camera2.CameraDevice) -> a
+    void a(com.unity3d.player.c,java.lang.Object) -> a
+    android.hardware.camera2.CameraDevice a(com.unity3d.player.c) -> a
+    java.lang.Object b(com.unity3d.player.c) -> b
+    android.hardware.camera2.CameraCaptureSession a(com.unity3d.player.c,android.hardware.camera2.CameraCaptureSession) -> a
+    android.hardware.camera2.CaptureRequest$Builder a(com.unity3d.player.c,android.hardware.camera2.CaptureRequest$Builder) -> a
+    android.view.Surface c(com.unity3d.player.c) -> c
+    android.hardware.camera2.CaptureRequest$Builder d(com.unity3d.player.c) -> d
+    android.media.ImageReader e(com.unity3d.player.c) -> e
+    android.util.Range f(com.unity3d.player.c) -> f
+    void g(com.unity3d.player.c) -> g
+    android.hardware.camera2.CameraDevice a(com.unity3d.player.c,android.hardware.camera2.CameraDevice) -> a
     java.util.concurrent.Semaphore f() -> f
-    void b(com.unity3d.player.b,android.hardware.camera2.CameraDevice) -> b
-    com.unity3d.player.c h(com.unity3d.player.b) -> h
-    android.media.Image i(com.unity3d.player.b) -> i
-    android.media.Image a(com.unity3d.player.b,android.media.Image) -> a
+    void b(com.unity3d.player.c,android.hardware.camera2.CameraDevice) -> b
+    com.unity3d.player.e h(com.unity3d.player.c) -> h
+    android.media.Image i(com.unity3d.player.c) -> i
+    android.media.Image a(com.unity3d.player.c,android.media.Image) -> a
     void <clinit>() -> <clinit>
-com.unity3d.player.b$1 -> com.unity3d.player.b$1:
-    com.unity3d.player.b a -> a
-    void <init>(com.unity3d.player.b) -> <init>
+com.unity3d.player.c$1 -> com.unity3d.player.c$1:
+    com.unity3d.player.c a -> a
+    void <init>(com.unity3d.player.c) -> <init>
     void onCaptureCompleted(android.hardware.camera2.CameraCaptureSession,android.hardware.camera2.CaptureRequest,android.hardware.camera2.TotalCaptureResult) -> onCaptureCompleted
     void onCaptureFailed(android.hardware.camera2.CameraCaptureSession,android.hardware.camera2.CaptureRequest,android.hardware.camera2.CaptureFailure) -> onCaptureFailed
     void onCaptureSequenceCompleted(android.hardware.camera2.CameraCaptureSession,int,long) -> onCaptureSequenceCompleted
     void onCaptureSequenceAborted(android.hardware.camera2.CameraCaptureSession,int) -> onCaptureSequenceAborted
-com.unity3d.player.b$2 -> com.unity3d.player.b$2:
-    com.unity3d.player.b a -> a
-    void <init>(com.unity3d.player.b) -> <init>
+com.unity3d.player.c$2 -> com.unity3d.player.c$2:
+    com.unity3d.player.c a -> a
+    void <init>(com.unity3d.player.c) -> <init>
     void onConfigured(android.hardware.camera2.CameraCaptureSession) -> onConfigured
     void onConfigureFailed(android.hardware.camera2.CameraCaptureSession) -> onConfigureFailed
-com.unity3d.player.b$3 -> com.unity3d.player.b$3:
-    com.unity3d.player.b a -> a
-    void <init>(com.unity3d.player.b) -> <init>
+com.unity3d.player.c$3 -> com.unity3d.player.c$3:
+    com.unity3d.player.c a -> a
+    void <init>(com.unity3d.player.c) -> <init>
     void onOpened(android.hardware.camera2.CameraDevice) -> onOpened
     void onClosed(android.hardware.camera2.CameraDevice) -> onClosed
     void onDisconnected(android.hardware.camera2.CameraDevice) -> onDisconnected
     void onError(android.hardware.camera2.CameraDevice,int) -> onError
-com.unity3d.player.b$4 -> com.unity3d.player.b$4:
-    com.unity3d.player.b a -> a
-    void <init>(com.unity3d.player.b) -> <init>
+com.unity3d.player.c$4 -> com.unity3d.player.c$4:
+    com.unity3d.player.c a -> a
+    void <init>(com.unity3d.player.c) -> <init>
     void onImageAvailable(android.media.ImageReader) -> onImageAvailable
-com.unity3d.player.b$5 -> com.unity3d.player.b$5:
-    com.unity3d.player.b a -> a
-    void <init>(com.unity3d.player.b) -> <init>
+com.unity3d.player.c$5 -> com.unity3d.player.c$5:
+    com.unity3d.player.c a -> a
+    void <init>(com.unity3d.player.c) -> <init>
     void onFrameAvailable(android.graphics.SurfaceTexture) -> onFrameAvailable
-com.unity3d.player.b$a -> com.unity3d.player.b$a:
+com.unity3d.player.c$a -> com.unity3d.player.c$a:
     int a -> a
     int b -> b
     int c -> c
     int[] d -> d
     void <clinit>() -> <clinit>
-com.unity3d.player.c -> com.unity3d.player.c:
+com.unity3d.player.d -> com.unity3d.player.d:
+    void a(java.lang.String[],com.unity3d.player.IAssetPackManagerStatusQueryCallback) -> a
+    void a(java.lang.String[],com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> a
+    java.lang.Object a(com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> a
+    void a(java.lang.Object) -> a
+    void a(android.app.Activity,com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback) -> a
+    java.lang.String a(java.lang.String) -> a
+    void a(java.lang.String[]) -> a
+    void b(java.lang.String) -> b
+com.unity3d.player.e -> com.unity3d.player.e:
     void a(java.lang.Object,java.lang.Object,java.lang.Object,int,int,int) -> a
     void a(java.lang.Object) -> a
-com.unity3d.player.d -> com.unity3d.player.d:
+com.unity3d.player.f -> com.unity3d.player.f:
     boolean a -> a
     void Log(int,java.lang.String) -> Log
     void <clinit>() -> <clinit>
-com.unity3d.player.e -> com.unity3d.player.e:
+com.unity3d.player.g -> com.unity3d.player.g:
     com.unity3d.player.IPermissionRequestCallbacks a -> a
     android.app.Activity b -> b
     android.os.Looper c -> c
@@ -886,15 +920,15 @@ com.unity3d.player.e -> com.unity3d.player.e:
     void <init>(android.app.Activity,com.unity3d.player.IPermissionRequestCallbacks) -> <init>
     void onCreate(android.os.Bundle) -> onCreate
     void onRequestPermissionsResult(int,java.lang.String[],int[]) -> onRequestPermissionsResult
-com.unity3d.player.e$a -> com.unity3d.player.e$a:
+com.unity3d.player.g$a -> com.unity3d.player.g$a:
     com.unity3d.player.IPermissionRequestCallbacks b -> b
     java.lang.String c -> c
     int d -> d
     boolean e -> e
-    com.unity3d.player.e a -> a
-    void <init>(com.unity3d.player.e,com.unity3d.player.IPermissionRequestCallbacks,java.lang.String,int,boolean) -> <init>
+    com.unity3d.player.g a -> a
+    void <init>(com.unity3d.player.g,com.unity3d.player.IPermissionRequestCallbacks,java.lang.String,int,boolean) -> <init>
     void run() -> run
-com.unity3d.player.f -> com.unity3d.player.f:
+com.unity3d.player.h -> com.unity3d.player.h:
     java.lang.ref.WeakReference a -> a
     android.app.Activity b -> b
     android.view.View c -> c
@@ -910,19 +944,20 @@ com.unity3d.player.f -> com.unity3d.player.f:
     void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle) -> onActivitySaveInstanceState
     void onActivityStarted(android.app.Activity) -> onActivityStarted
     void onActivityStopped(android.app.Activity) -> onActivityStopped
-com.unity3d.player.f$a -> com.unity3d.player.f$a:
+com.unity3d.player.h$a -> com.unity3d.player.h$a:
     android.graphics.Bitmap a -> a
-    com.unity3d.player.f b -> b
-    void <init>(com.unity3d.player.f,android.content.Context) -> <init>
+    com.unity3d.player.h b -> b
+    void <init>(com.unity3d.player.h,android.content.Context) -> <init>
     void onPixelCopyFinished(int) -> onPixelCopyFinished
     void a(android.view.SurfaceView) -> a
-com.unity3d.player.g -> com.unity3d.player.g:
-    android.content.Context a -> a
-    com.unity3d.player.UnityPlayer b -> b
-    int c -> c
+com.unity3d.player.i -> com.unity3d.player.i:
+    android.content.Context b -> b
+    com.unity3d.player.UnityPlayer c -> c
     int d -> d
     int e -> e
-    void <init>(android.content.Context,com.unity3d.player.UnityPlayer,java.lang.String,int,boolean,boolean,boolean,java.lang.String,int,boolean) -> <init>
+    int f -> f
+    boolean a -> a
+    void <init>(android.content.Context,com.unity3d.player.UnityPlayer,java.lang.String,int,boolean,boolean,boolean,java.lang.String,int,boolean,boolean) -> <init>
     void a(boolean) -> a
     void a(android.widget.EditText,java.lang.String,int,boolean,boolean,boolean,java.lang.String,int) -> a
     void afterTextChanged(android.text.Editable) -> afterTextChanged
@@ -932,37 +967,38 @@ com.unity3d.player.g -> com.unity3d.player.g:
     void a(java.lang.String,boolean) -> a
     void onClick(android.view.View) -> onClick
     void onBackPressed() -> onBackPressed
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
     android.view.View createSoftInputView() -> createSoftInputView
     java.lang.String b() -> b
     void a(java.lang.String) -> a
     void a(int) -> a
     void a(int,int) -> a
     java.lang.String a() -> a
-    com.unity3d.player.UnityPlayer a(com.unity3d.player.g) -> a
-    java.lang.String b(com.unity3d.player.g) -> b
-    void a(com.unity3d.player.g,java.lang.String,boolean) -> a
-    android.content.Context c(com.unity3d.player.g) -> c
+    com.unity3d.player.UnityPlayer a(com.unity3d.player.i) -> a
+    java.lang.String b(com.unity3d.player.i) -> b
+    void a(com.unity3d.player.i,java.lang.String,boolean) -> a
+    android.content.Context c(com.unity3d.player.i) -> c
     void <clinit>() -> <clinit>
-com.unity3d.player.g$1 -> com.unity3d.player.g$1:
+com.unity3d.player.i$1 -> com.unity3d.player.i$1:
     android.view.View a -> a
-    com.unity3d.player.g b -> b
-    void <init>(com.unity3d.player.g,android.view.View) -> <init>
+    com.unity3d.player.i b -> b
+    void <init>(com.unity3d.player.i,android.view.View) -> <init>
     void onGlobalLayout() -> onGlobalLayout
-com.unity3d.player.g$2 -> com.unity3d.player.g$2:
-    com.unity3d.player.g a -> a
-    void <init>(com.unity3d.player.g) -> <init>
+com.unity3d.player.i$2 -> com.unity3d.player.i$2:
+    com.unity3d.player.i a -> a
+    void <init>(com.unity3d.player.i) -> <init>
     void onFocusChange(android.view.View,boolean) -> onFocusChange
-com.unity3d.player.g$3 -> com.unity3d.player.g$3:
-    com.unity3d.player.g a -> a
-    void <init>(com.unity3d.player.g,android.content.Context) -> <init>
+com.unity3d.player.i$3 -> com.unity3d.player.i$3:
+    com.unity3d.player.i a -> a
+    void <init>(com.unity3d.player.i,android.content.Context) -> <init>
     boolean onKeyPreIme(int,android.view.KeyEvent) -> onKeyPreIme
     void onWindowFocusChanged(boolean) -> onWindowFocusChanged
     void onSelectionChanged(int,int) -> onSelectionChanged
-com.unity3d.player.g$4 -> com.unity3d.player.g$4:
-    com.unity3d.player.g a -> a
-    void <init>(com.unity3d.player.g) -> <init>
+com.unity3d.player.i$4 -> com.unity3d.player.i$4:
+    com.unity3d.player.i a -> a
+    void <init>(com.unity3d.player.i) -> <init>
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
-com.unity3d.player.h -> com.unity3d.player.h:
+com.unity3d.player.j -> com.unity3d.player.j:
     int a -> a
     int b -> b
     android.graphics.Bitmap c -> c
@@ -970,22 +1006,22 @@ com.unity3d.player.h -> com.unity3d.player.h:
     void <init>(android.content.Context,int) -> <init>
     void onLayout(boolean,int,int,int,int) -> onLayout
     void onDetachedFromWindow() -> onDetachedFromWindow
-com.unity3d.player.h$1 -> com.unity3d.player.h$1:
+com.unity3d.player.j$1 -> com.unity3d.player.j$1:
     int[] a -> a
     void <clinit>() -> <clinit>
-com.unity3d.player.h$a -> com.unity3d.player.h$a:
+com.unity3d.player.j$a -> com.unity3d.player.j$a:
     int a -> a
     int b -> b
     int c -> c
     int[] d -> d
     int[] a() -> a
     void <clinit>() -> <clinit>
-com.unity3d.player.i -> com.unity3d.player.i:
+com.unity3d.player.k -> com.unity3d.player.k:
     java.lang.Thread$UncaughtExceptionHandler a -> a
     void <init>() -> <init>
     boolean a() -> a
     void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
-com.unity3d.player.j -> com.unity3d.player.j:
+com.unity3d.player.l -> com.unity3d.player.l:
     boolean a -> a
     boolean b -> b
     boolean c -> c
@@ -1001,11 +1037,11 @@ com.unity3d.player.j -> com.unity3d.player.j:
     void c(boolean) -> c
     boolean e() -> e
     void d(boolean) -> d
+    boolean e(boolean) -> e
     boolean f() -> f
-    boolean g() -> g
     java.lang.String toString() -> toString
     void <clinit>() -> <clinit>
-com.unity3d.player.k -> com.unity3d.player.k:
+com.unity3d.player.m -> com.unity3d.player.m:
     boolean a -> a
     android.content.Context b -> b
     android.view.SurfaceView c -> c
@@ -1029,11 +1065,11 @@ com.unity3d.player.k -> com.unity3d.player.k:
     int u -> u
     boolean v -> v
     boolean w -> w
-    com.unity3d.player.k$a x -> x
-    com.unity3d.player.k$b y -> y
+    com.unity3d.player.m$a x -> x
+    com.unity3d.player.m$b y -> y
     int z -> z
     void b(java.lang.String) -> b
-    void <init>(android.content.Context,java.lang.String,int,int,int,boolean,long,long,com.unity3d.player.k$a) -> <init>
+    void <init>(android.content.Context,java.lang.String,int,int,int,boolean,long,long,com.unity3d.player.m$a) -> <init>
     boolean a() -> a
     void a(int) -> a
     void destroyPlayer() -> destroyPlayer
@@ -1065,43 +1101,43 @@ com.unity3d.player.k -> com.unity3d.player.k:
     boolean b() -> b
     void a(java.lang.String) -> a
     void <clinit>() -> <clinit>
-com.unity3d.player.k$a -> com.unity3d.player.k$a:
+com.unity3d.player.m$a -> com.unity3d.player.m$a:
     void a(int) -> a
-com.unity3d.player.k$b -> com.unity3d.player.k$b:
-    com.unity3d.player.k b -> b
+com.unity3d.player.m$b -> com.unity3d.player.m$b:
+    com.unity3d.player.m b -> b
     boolean c -> c
-    com.unity3d.player.k a -> a
-    void <init>(com.unity3d.player.k,com.unity3d.player.k) -> <init>
+    com.unity3d.player.m a -> a
+    void <init>(com.unity3d.player.m,com.unity3d.player.m) -> <init>
     void run() -> run
     void a() -> a
-com.unity3d.player.l -> com.unity3d.player.l:
+com.unity3d.player.n -> com.unity3d.player.n:
     com.unity3d.player.UnityPlayer a -> a
     android.content.Context b -> b
-    com.unity3d.player.l$a c -> c
+    com.unity3d.player.n$a c -> c
     java.util.concurrent.Semaphore d -> d
     java.util.concurrent.locks.Lock e -> e
-    com.unity3d.player.k f -> f
+    com.unity3d.player.m f -> f
     int g -> g
     boolean h -> h
     boolean i -> i
     void <init>(com.unity3d.player.UnityPlayer) -> <init>
-    boolean a(android.content.Context,java.lang.String,int,int,int,boolean,long,long,com.unity3d.player.l$a) -> a
+    boolean a(android.content.Context,java.lang.String,int,int,int,boolean,long,long,com.unity3d.player.n$a) -> a
     void d() -> d
     void a() -> a
     void b() -> b
     void c() -> c
     void runOnUiThread(java.lang.Runnable) -> runOnUiThread
-    com.unity3d.player.k a(com.unity3d.player.l) -> a
-    int a(com.unity3d.player.l,int) -> a
-    java.util.concurrent.Semaphore b(com.unity3d.player.l) -> b
-    com.unity3d.player.k a(com.unity3d.player.l,com.unity3d.player.k) -> a
-    android.content.Context c(com.unity3d.player.l) -> c
-    java.util.concurrent.locks.Lock d(com.unity3d.player.l) -> d
-    boolean e(com.unity3d.player.l) -> e
-    void f(com.unity3d.player.l) -> f
-    com.unity3d.player.UnityPlayer g(com.unity3d.player.l) -> g
-    boolean h(com.unity3d.player.l) -> h
-com.unity3d.player.l$1 -> com.unity3d.player.l$1:
+    com.unity3d.player.m a(com.unity3d.player.n) -> a
+    int a(com.unity3d.player.n,int) -> a
+    java.util.concurrent.Semaphore b(com.unity3d.player.n) -> b
+    com.unity3d.player.m a(com.unity3d.player.n,com.unity3d.player.m) -> a
+    android.content.Context c(com.unity3d.player.n) -> c
+    java.util.concurrent.locks.Lock d(com.unity3d.player.n) -> d
+    boolean e(com.unity3d.player.n) -> e
+    void f(com.unity3d.player.n) -> f
+    com.unity3d.player.UnityPlayer g(com.unity3d.player.n) -> g
+    boolean h(com.unity3d.player.n) -> h
+com.unity3d.player.n$1 -> com.unity3d.player.n$1:
     java.lang.String a -> a
     int b -> b
     int c -> c
@@ -1109,30 +1145,30 @@ com.unity3d.player.l$1 -> com.unity3d.player.l$1:
     boolean e -> e
     long f -> f
     long g -> g
-    com.unity3d.player.l h -> h
-    void <init>(com.unity3d.player.l,java.lang.String,int,int,int,boolean,long,long) -> <init>
+    com.unity3d.player.n h -> h
+    void <init>(com.unity3d.player.n,java.lang.String,int,int,int,boolean,long,long) -> <init>
     void run() -> run
-com.unity3d.player.l$1$1 -> com.unity3d.player.l$1$1:
-    com.unity3d.player.l$1 a -> a
-    void <init>(com.unity3d.player.l$1) -> <init>
+com.unity3d.player.n$1$1 -> com.unity3d.player.n$1$1:
+    com.unity3d.player.n$1 a -> a
+    void <init>(com.unity3d.player.n$1) -> <init>
     void a(int) -> a
-com.unity3d.player.l$1$1$1 -> com.unity3d.player.l$1$1$1:
-    com.unity3d.player.l$1$1 a -> a
-    void <init>(com.unity3d.player.l$1$1) -> <init>
+com.unity3d.player.n$1$1$1 -> com.unity3d.player.n$1$1$1:
+    com.unity3d.player.n$1$1 a -> a
+    void <init>(com.unity3d.player.n$1$1) -> <init>
     void run() -> run
-com.unity3d.player.l$2 -> com.unity3d.player.l$2:
-    com.unity3d.player.l a -> a
-    void <init>(com.unity3d.player.l) -> <init>
+com.unity3d.player.n$2 -> com.unity3d.player.n$2:
+    com.unity3d.player.n a -> a
+    void <init>(com.unity3d.player.n) -> <init>
     void run() -> run
-com.unity3d.player.l$3 -> com.unity3d.player.l$3:
-    com.unity3d.player.l a -> a
-    void <init>(com.unity3d.player.l) -> <init>
+com.unity3d.player.n$3 -> com.unity3d.player.n$3:
+    com.unity3d.player.n a -> a
+    void <init>(com.unity3d.player.n) -> <init>
     void run() -> run
-com.unity3d.player.l$4 -> com.unity3d.player.l$4:
-    com.unity3d.player.l a -> a
-    void <init>(com.unity3d.player.l) -> <init>
+com.unity3d.player.n$4 -> com.unity3d.player.n$4:
+    com.unity3d.player.n a -> a
+    void <init>(com.unity3d.player.n) -> <init>
     void run() -> run
-com.unity3d.player.l$a -> com.unity3d.player.l$a:
+com.unity3d.player.n$a -> com.unity3d.player.n$a:
     void a() -> a
 org.fmod.FMODAudioDevice -> org.fmod.FMODAudioDevice:
     java.lang.Thread a -> a

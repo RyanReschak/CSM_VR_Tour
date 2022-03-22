@@ -13,7 +13,7 @@ public class ButtonVR : MonoBehaviour
     public GameObject button;
     public UnityEvent onPress;
     public UnityEvent onRelease;
-    public float waitTime = 2.0f;
+    public float waitTime = 0.25f;
     GameObject presser;
     AudioSource sound;
     bool isPressed;

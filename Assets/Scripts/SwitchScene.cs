@@ -2,9 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class SwitchScene : MonoBehaviour
 {
+    public GameObject videoScreen;
+
+    private VideoPlayer video;
+    private IDictionary<int, string> videoSelect;
+
+    void Start()
+    {
+        
+        videoSelect.Add(0, "");
+        videoSelect.Add(1, "");
+        videoSelect.Add(2, "");
+        videoSelect.Add(3, "");
+
+        video = videoScreen.GetComponentInChildren<VideoPlayer>();
+    }
+
     public void nextScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -21,9 +38,15 @@ public class SwitchScene : MonoBehaviour
 
     public void switchScene(string name)
     {
-        //SceneManager.LoadSceneAsync(name);
-        //SceneManager.UnloadScene(SceneManager.GetActiveScene().buildIndex);
-        //SceneManager.SetActiveScene();
         SceneManager.LoadScene(name);
     }
-}
+    public void switchVideo(VideoClip c)
+    {
+        video.clip = c;
+        video.Play();
+    }
+    /*public void switchVideo(int key)
+    {
+        video.url = videoSelect[key];
+    }*/
+ }

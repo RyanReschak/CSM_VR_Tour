@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main_Screen.unity
     guid: a955d2bd352886643b2968ff29633b06
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Social_Life.unity
     guid: 360417967f90e9f4a92b3ad64285fcf6
   - enabled: 0
@@ -26,13 +26,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/BowlingScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/BeyondGolden.unity
     guid: 4191e50c484809341b4ced952cdaf034
   - enabled: 0
     path: Assets/Scenes/Mountains.unity
     guid: 3d89f97faaf71e144af6f3a8d80ff549
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Tour.unity
     guid: e22b51c89623d5747bfbba16695c1052
   - enabled: 0
@@ -80,3 +80,4 @@ EditorBuildSettings:
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7ee2413419a1ca349b4e513e61ef8686, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2301f393d995ba24ca1a1830e3f1fca9, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: b8817debc23e6b3419a6ac8258ed1c53, type: 2}
