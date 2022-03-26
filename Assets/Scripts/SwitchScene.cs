@@ -19,7 +19,7 @@ public class SwitchScene : MonoBehaviour
         videoSelect.Add(2, "");
         videoSelect.Add(3, "");
 
-        video = videoScreen.GetComponentInChildren<VideoPlayer>();
+        video = videoScreen.GetComponent<VideoPlayer>();
     }
 
     public void nextScene()
@@ -43,7 +43,18 @@ public class SwitchScene : MonoBehaviour
     public void switchVideo(VideoClip c)
     {
         video.clip = c;
-        video.Play();
+        print("Preparing...");
+        try
+        {
+            video.Prepare();
+            while (video.isPrepared);
+            print("Video Prepared");
+            video.Play();
+        } catch
+        {
+            print("Video Couldn't be played");
+        }
+        
     }
     /*public void switchVideo(int key)
     {

@@ -142,7 +142,39 @@ public class LogSystem : MonoBehaviour
 
     public void UpdateUserID(string userType)
     {
-        List<string> lines = new List<string>() { "<type>", userType, "</type>" };
+        List<string> lines = new List<string>() { "<type>" + userType + "</type>" };
+        frw.WriteLines(lines);
+    }
+
+    public void UpdateStudentID(GameObject studentPanel)
+    {
+        List<string> lines = new List<string>();
+        Toggle[] toggles = studentPanel.GetComponentsInChildren<Toggle>();
+
+        lines.Add("<stype>");
+
+        foreach (Toggle child in toggles)
+        {
+            if (child.isOn)
+            {
+                foreach (Text t in child.GetComponentsInChildren<Text>())
+                {
+                    lines.Add(t.text);
+                }
+
+            }
+        }
+
+        Dropdown[] gradYear = studentPanel.GetComponentsInChildren<Dropdown>();
+
+        foreach (Dropdown child in gradYear)
+        {
+            
+            lines.Add(child.captionText.text);
+                
+        }
+
+        lines.Add("</stype>");
         frw.WriteLines(lines);
     }
 
