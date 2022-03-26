@@ -54,7 +54,7 @@ public class Keyboard : MonoBehaviour
 
     public void EnterPressed()
     {
-        enterButton.onClick.Invoke();
+        //enterButton.onClick.Invoke();
     }
 
     public void CapsPressed()
