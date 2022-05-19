@@ -6,13 +6,46 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 020356075101590a540b5e2345770f1413154c7f7c7f75637a2a4f66e3b8606c
+      value: 02025107060059025e0d082147705a44474f1c7f7d7122347d2f486be0e56368
       flags: 0
     RecentlyUsedSceneGuid-1:
-      value: 53550d03070c5a590e5d087716700e4447154d2b7b2b22652c794837e6e1656d
+      value: 020356075101590a540b5e2345770f1413154c7f7c7f75637a2a4f66e3b8606c
       flags: 0
     RecentlyUsedSceneGuid-2:
       value: 0208015301070b5f5e5b5e7a4875094445154a737a7020367f704b60b1e2646e
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 53550d03070c5a590e5d087716700e4447154d2b7b2b22652c794837e6e1656d
+      flags: 0
+    RecentlyUsedScenePath-0:
+      value: 22424703114646680e0b0227036c6d1515283b2f223c2322633c133af6f9
+      flags: 0
+    RecentlyUsedScenePath-1:
+      value: 22424703114646680e0b0227036c6c1f151e192613042f362867083debf42d
+      flags: 0
+    RecentlyUsedScenePath-2:
+      value: 22424703114646680e0b0227036c6c0019050c39623d28393930
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 22424703114646680e0b0227036c6c0019050c39130f343528225326ece92021
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 22424703114646680e0b0227036c6c0403131d2438170a392b2c5326ece92021
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 22424703114646680e0b0227036c6b1f0305563f22213229
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 22424703114646680e0b0227036c6b021713270e233a2b23633c133af6f9
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 22424703114646680e0b0227036c66242921112e292768252320092a
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 22424703114646680e0b0227036c7e1317131d27252b357e38271427fb
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 22424703114646680e0b0227036c72111f1927192f3a23352367083debf42d
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
@@ -22,8 +55,8 @@ EditorUserSettings:
   m_VCDebugCmd: 0
   m_VCDebugOut: 0
   m_SemanticMergeMode: 2
-  m_DesiredImportWorkerCount: 1
-  m_StandbyImportWorkerCount: 1
+  m_DesiredImportWorkerCount: 3
+  m_StandbyImportWorkerCount: 2
   m_IdleImportWorkerShutdownDelay: 60000
   m_VCShowFailedCheckout: 1
   m_VCOverwriteFailedCheckoutAssets: 1

@@ -10,7 +10,6 @@ public class Keyboard : MonoBehaviour
 
     EventSystem sys;
     public TMP_InputField inputField;
-    public Button enterButton;
     public GameObject normalButtons;
     public GameObject capsButtons;
   
@@ -25,7 +24,7 @@ public class Keyboard : MonoBehaviour
 
     private void Update()
     {
-       inputField = sys.currentSelectedGameObject.GetComponent<Selectable>().gameObject.GetComponent<TMP_InputField>();
+       //inputField = sys.currentSelectedGameObject.GetComponent<Selectable>().gameObject.GetComponent<TMP_InputField>();
     }
 
     public void InserChar(string c)
