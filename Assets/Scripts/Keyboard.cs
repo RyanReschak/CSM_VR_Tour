@@ -24,7 +24,7 @@ public class Keyboard : MonoBehaviour
 
     private void Update()
     {
-       //inputField = sys.currentSelectedGameObject.GetComponent<Selectable>().gameObject.GetComponent<TMP_InputField>();
+       inputField = sys.currentSelectedGameObject.GetComponent<Selectable>().gameObject.GetComponent<TMP_InputField>();
     }
 
     public void InserChar(string c)

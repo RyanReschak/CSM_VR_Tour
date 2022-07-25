@@ -1600,60 +1600,66 @@ extern void TimelineHelper_AssignElement_mDBB1FFD3D86E6D38F42DD6FFD62848609C0A5D
 extern void TimelineHelper_GetShouldBeActive_m390A9D3CE64E6D99B2E72EB81A23DDBDBA930CA5 (void);
 // 0x00000320 System.Void DigitalSalmon.C360.TimelineHelper::.ctor()
 extern void TimelineHelper__ctor_mBEEEE08742781D3737B24AE7C98DB5BD7B73D41F (void);
-// 0x00000321 System.Void DigitalSalmon.C360.AnimatedComponents.AcAudioSourceVolume::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
+// 0x00000321 UnityEngine.Vector2 DigitalSalmon.C360.InputRaycaster_XR::GetInputPosition()
+extern void InputRaycaster_XR_GetInputPosition_mF5C36FD1E6020C4D5AA8F9A0C767ED74FEAC54BF (void);
+// 0x00000322 System.Void DigitalSalmon.C360.InputRaycaster_XR::Update()
+extern void InputRaycaster_XR_Update_mDEB7BBF7ADA23E36B1C85DB4B89691941BC474D9 (void);
+// 0x00000323 System.Void DigitalSalmon.C360.InputRaycaster_XR::.ctor()
+extern void InputRaycaster_XR__ctor_mC078F68DD5F4597D44E2179511E46890E5DCF7BC (void);
+// 0x00000324 System.Void DigitalSalmon.C360.AnimatedComponents.AcAudioSourceVolume::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
 extern void AcAudioSourceVolume_DigitalSalmon_C360_AnimatedComponents_IAnimatedComponent_SetDelta_m26E8BB20C2A9FC630DB3FAF3DF5F76CF7EA1CED3 (void);
-// 0x00000322 System.Void DigitalSalmon.C360.AnimatedComponents.AcAudioSourceVolume::.ctor()
+// 0x00000325 System.Void DigitalSalmon.C360.AnimatedComponents.AcAudioSourceVolume::.ctor()
 extern void AcAudioSourceVolume__ctor_m8858751908C94ACB2DC2B14102FB6F008250859C (void);
-// 0x00000323 UnityEngine.BoxCollider DigitalSalmon.C360.AnimatedComponents.AcBoxColliderSize::get_BoxCollider()
+// 0x00000326 UnityEngine.BoxCollider DigitalSalmon.C360.AnimatedComponents.AcBoxColliderSize::get_BoxCollider()
 extern void AcBoxColliderSize_get_BoxCollider_mADD8CBD6C8F45D25B500BB93DB5200A3AB2CE8B9 (void);
-// 0x00000324 System.Void DigitalSalmon.C360.AnimatedComponents.AcBoxColliderSize::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
+// 0x00000327 System.Void DigitalSalmon.C360.AnimatedComponents.AcBoxColliderSize::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
 extern void AcBoxColliderSize_DigitalSalmon_C360_AnimatedComponents_IAnimatedComponent_SetDelta_mAC9C29CC8ACD82F5F6FA26E9405066F960CE38E0 (void);
-// 0x00000325 System.Void DigitalSalmon.C360.AnimatedComponents.AcBoxColliderSize::.ctor()
+// 0x00000328 System.Void DigitalSalmon.C360.AnimatedComponents.AcBoxColliderSize::.ctor()
 extern void AcBoxColliderSize__ctor_m967818141FC67D826D1E23BAFCD517A37FD63E9B (void);
-// 0x00000326 UnityEngine.UI.Graphic DigitalSalmon.C360.AnimatedComponents.AcGraphicAlpha::get_Graphic()
+// 0x00000329 UnityEngine.UI.Graphic DigitalSalmon.C360.AnimatedComponents.AcGraphicAlpha::get_Graphic()
 extern void AcGraphicAlpha_get_Graphic_m185E5DE46936980AC8B93F3A82CDE3E438CAD000 (void);
-// 0x00000327 System.Void DigitalSalmon.C360.AnimatedComponents.AcGraphicAlpha::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
+// 0x0000032A System.Void DigitalSalmon.C360.AnimatedComponents.AcGraphicAlpha::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
 extern void AcGraphicAlpha_DigitalSalmon_C360_AnimatedComponents_IAnimatedComponent_SetDelta_m20A0597BF1C6A4E0A3AF2091460F442C784EEE97 (void);
-// 0x00000328 System.Void DigitalSalmon.C360.AnimatedComponents.AcGraphicAlpha::.ctor()
+// 0x0000032B System.Void DigitalSalmon.C360.AnimatedComponents.AcGraphicAlpha::.ctor()
 extern void AcGraphicAlpha__ctor_mC8C458B881A99F9028891A9A5030956E0DAF03E9 (void);
-// 0x00000329 UnityEngine.UI.Graphic DigitalSalmon.C360.AnimatedComponents.AcGraphicColor::get_Graphic()
+// 0x0000032C UnityEngine.UI.Graphic DigitalSalmon.C360.AnimatedComponents.AcGraphicColor::get_Graphic()
 extern void AcGraphicColor_get_Graphic_mF0382216EF4210B6D38C535889C93A3CEFDC3395 (void);
-// 0x0000032A System.Void DigitalSalmon.C360.AnimatedComponents.AcGraphicColor::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
+// 0x0000032D System.Void DigitalSalmon.C360.AnimatedComponents.AcGraphicColor::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
 extern void AcGraphicColor_DigitalSalmon_C360_AnimatedComponents_IAnimatedComponent_SetDelta_m7A11E4A483575F9C804F2FA2B18FB474A12673C4 (void);
-// 0x0000032B System.Void DigitalSalmon.C360.AnimatedComponents.AcGraphicColor::.ctor()
+// 0x0000032E System.Void DigitalSalmon.C360.AnimatedComponents.AcGraphicColor::.ctor()
 extern void AcGraphicColor__ctor_m9B03BAE8B3E8817CDE25F68A1F2B73F7A9A60BF2 (void);
-// 0x0000032C System.Void DigitalSalmon.C360.AnimatedComponents.AcRectTransformAnchoredPosition::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
+// 0x0000032F System.Void DigitalSalmon.C360.AnimatedComponents.AcRectTransformAnchoredPosition::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
 extern void AcRectTransformAnchoredPosition_DigitalSalmon_C360_AnimatedComponents_IAnimatedComponent_SetDelta_m8B5D7C216B39BE41A465177A9395A297D1A31CF6 (void);
-// 0x0000032D System.Void DigitalSalmon.C360.AnimatedComponents.AcRectTransformAnchoredPosition::.ctor()
+// 0x00000330 System.Void DigitalSalmon.C360.AnimatedComponents.AcRectTransformAnchoredPosition::.ctor()
 extern void AcRectTransformAnchoredPosition__ctor_mFA96CD783B248062399B21BB0178374C106FA9FA (void);
-// 0x0000032E System.Void DigitalSalmon.C360.AnimatedComponents.AcRectTransformSize::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
+// 0x00000331 System.Void DigitalSalmon.C360.AnimatedComponents.AcRectTransformSize::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
 extern void AcRectTransformSize_DigitalSalmon_C360_AnimatedComponents_IAnimatedComponent_SetDelta_m38DDE44EA5039161B5D7F9B203AD50C120A60CE2 (void);
-// 0x0000032F System.Void DigitalSalmon.C360.AnimatedComponents.AcRectTransformSize::.ctor()
+// 0x00000332 System.Void DigitalSalmon.C360.AnimatedComponents.AcRectTransformSize::.ctor()
 extern void AcRectTransformSize__ctor_m48AA3B5005E2576C50547C4464C71396E5DEC581 (void);
-// 0x00000330 UnityEngine.SphereCollider DigitalSalmon.C360.AnimatedComponents.AcSphereColliderRadius::get_SphereCollider()
+// 0x00000333 UnityEngine.SphereCollider DigitalSalmon.C360.AnimatedComponents.AcSphereColliderRadius::get_SphereCollider()
 extern void AcSphereColliderRadius_get_SphereCollider_m94C4772AD1BA9D70A0ACDAE4E2ED98963BBF8403 (void);
-// 0x00000331 System.Void DigitalSalmon.C360.AnimatedComponents.AcSphereColliderRadius::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
+// 0x00000334 System.Void DigitalSalmon.C360.AnimatedComponents.AcSphereColliderRadius::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
 extern void AcSphereColliderRadius_DigitalSalmon_C360_AnimatedComponents_IAnimatedComponent_SetDelta_m82126126DC664080F23EF33B045D49B0C44A3875 (void);
-// 0x00000332 System.Void DigitalSalmon.C360.AnimatedComponents.AcSphereColliderRadius::.ctor()
+// 0x00000335 System.Void DigitalSalmon.C360.AnimatedComponents.AcSphereColliderRadius::.ctor()
 extern void AcSphereColliderRadius__ctor_m80A2C642522885FB75AF9AE20E32A13F93471055 (void);
-// 0x00000333 UnityEngine.UI.Text DigitalSalmon.C360.AnimatedComponents.AcTextAlpha::get_Text()
+// 0x00000336 UnityEngine.UI.Text DigitalSalmon.C360.AnimatedComponents.AcTextAlpha::get_Text()
 extern void AcTextAlpha_get_Text_m11E4EC23CFC90685E174378EFDAD3ACF548C6022 (void);
-// 0x00000334 TMPro.TMP_Text DigitalSalmon.C360.AnimatedComponents.AcTextAlpha::get_TmpText()
+// 0x00000337 TMPro.TMP_Text DigitalSalmon.C360.AnimatedComponents.AcTextAlpha::get_TmpText()
 extern void AcTextAlpha_get_TmpText_mB302BB2777448F1A027E163F9A7C0A7DB6527AE9 (void);
-// 0x00000335 System.Void DigitalSalmon.C360.AnimatedComponents.AcTextAlpha::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
+// 0x00000338 System.Void DigitalSalmon.C360.AnimatedComponents.AcTextAlpha::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
 extern void AcTextAlpha_DigitalSalmon_C360_AnimatedComponents_IAnimatedComponent_SetDelta_mE5EC4A0EA33EE28890EF3FD73B975F10FCBE8290 (void);
-// 0x00000336 System.Void DigitalSalmon.C360.AnimatedComponents.AcTextAlpha::.ctor()
+// 0x00000339 System.Void DigitalSalmon.C360.AnimatedComponents.AcTextAlpha::.ctor()
 extern void AcTextAlpha__ctor_m63C432D9AADE3A4D9C0C8BC508C17877B2EDBD65 (void);
-// 0x00000337 UnityEngine.UI.Text DigitalSalmon.C360.AnimatedComponents.AcTextColor::get_Text()
+// 0x0000033A UnityEngine.UI.Text DigitalSalmon.C360.AnimatedComponents.AcTextColor::get_Text()
 extern void AcTextColor_get_Text_mCE442B857ABC4D9C470F562423837A72EE7C650A (void);
-// 0x00000338 TMPro.TMP_Text DigitalSalmon.C360.AnimatedComponents.AcTextColor::get_TmpText()
+// 0x0000033B TMPro.TMP_Text DigitalSalmon.C360.AnimatedComponents.AcTextColor::get_TmpText()
 extern void AcTextColor_get_TmpText_m653494FFC8D53A3893DF1138EFE36263F51F5EA7 (void);
-// 0x00000339 System.Void DigitalSalmon.C360.AnimatedComponents.AcTextColor::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
+// 0x0000033C System.Void DigitalSalmon.C360.AnimatedComponents.AcTextColor::DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent.SetDelta(System.Single)
 extern void AcTextColor_DigitalSalmon_C360_AnimatedComponents_IAnimatedComponent_SetDelta_m716A8221905D32CC713AD9497DAE4837180A80A0 (void);
-// 0x0000033A System.Void DigitalSalmon.C360.AnimatedComponents.AcTextColor::.ctor()
+// 0x0000033D System.Void DigitalSalmon.C360.AnimatedComponents.AcTextColor::.ctor()
 extern void AcTextColor__ctor_mBBE66269913BC8BEFB21C3EE5B70D5D5D8C2A6C8 (void);
-// 0x0000033B System.Void DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent::SetDelta(System.Single)
-static Il2CppMethodPointer s_methodPointers[827] = 
+// 0x0000033E System.Void DigitalSalmon.C360.AnimatedComponents.IAnimatedComponent::SetDelta(System.Single)
+static Il2CppMethodPointer s_methodPointers[830] = 
 {
 	ButtonVR_Start_mC55A0FD15F5729D0674500BBD7BEF1248DD9117F,
 	ButtonVR_OnTriggerEnter_m892AAAFD8F55FCBA7E3DDE257A726C380FC16E22,
@@ -2455,6 +2461,9 @@ static Il2CppMethodPointer s_methodPointers[827] =
 	TimelineHelper_AssignElement_mDBB1FFD3D86E6D38F42DD6FFD62848609C0A5D67,
 	TimelineHelper_GetShouldBeActive_m390A9D3CE64E6D99B2E72EB81A23DDBDBA930CA5,
 	TimelineHelper__ctor_mBEEEE08742781D3737B24AE7C98DB5BD7B73D41F,
+	InputRaycaster_XR_GetInputPosition_mF5C36FD1E6020C4D5AA8F9A0C767ED74FEAC54BF,
+	InputRaycaster_XR_Update_mDEB7BBF7ADA23E36B1C85DB4B89691941BC474D9,
+	InputRaycaster_XR__ctor_mC078F68DD5F4597D44E2179511E46890E5DCF7BC,
 	AcAudioSourceVolume_DigitalSalmon_C360_AnimatedComponents_IAnimatedComponent_SetDelta_m26E8BB20C2A9FC630DB3FAF3DF5F76CF7EA1CED3,
 	AcAudioSourceVolume__ctor_m8858751908C94ACB2DC2B14102FB6F008250859C,
 	AcBoxColliderSize_get_BoxCollider_mADD8CBD6C8F45D25B500BB93DB5200A3AB2CE8B9,
@@ -2490,7 +2499,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] =
 	{ 0x060002CC, U3CLoadImageTextureU3Ed__8_MoveNext_m6B72D4B1F48666B47EEDEDB5753D3D093630BA05_AdjustorThunk },
 	{ 0x060002CD, U3CLoadImageTextureU3Ed__8_SetStateMachine_m96B5EBFDC9E6EB63C5E91D2D62AC14D060F5A5C0_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[827] = 
+static const int32_t s_InvokerIndices[830] = 
 {
 	5031,
 	3982,
@@ -3292,6 +3301,9 @@ static const int32_t s_InvokerIndices[827] =
 	3982,
 	4826,
 	5031,
+	5018,
+	5031,
+	5031,
 	4016,
 	5031,
 	4916,
@@ -3324,7 +3336,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	827,
+	830,
 	s_methodPointers,
 	2,
 	s_adjustorThunks,
