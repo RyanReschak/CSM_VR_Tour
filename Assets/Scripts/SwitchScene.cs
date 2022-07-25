@@ -8,18 +8,18 @@ public class SwitchScene : MonoBehaviour
 {
     public GameObject videoScreen;
 
-    private VideoPlayer video;
-    private IDictionary<int, string> videoSelect;
+    //private VideoPlayer video;
+    //private IDictionary<int, string> videoSelect;
 
     void Start()
     {
         
-        videoSelect.Add(0, "");
+        /*videoSelect.Add(0, "");
         videoSelect.Add(1, "");
         videoSelect.Add(2, "");
         videoSelect.Add(3, "");
 
-        video = videoScreen.GetComponent<VideoPlayer>();
+        video = videoScreen.GetComponent<VideoPlayer>();*/
     }
 
     public void nextScene()
@@ -40,7 +40,7 @@ public class SwitchScene : MonoBehaviour
     {
         SceneManager.LoadScene(name);
     }
-    public void switchVideo(VideoClip c)
+    /*public void switchVideo(VideoClip c)
     {
         video.clip = c;
         print("Preparing...");
@@ -55,7 +55,7 @@ public class SwitchScene : MonoBehaviour
             print("Video Couldn't be played");
         }
         
-    }
+    }*/
     /*public void switchVideo(int key)
     {
         video.url = videoSelect[key];

@@ -10,7 +10,6 @@ public class Keyboard : MonoBehaviour
 
     EventSystem sys;
     public TMP_InputField inputField;
-    public Button enterButton;
     public GameObject normalButtons;
     public GameObject capsButtons;
   
@@ -54,7 +53,7 @@ public class Keyboard : MonoBehaviour
 
     public void EnterPressed()
     {
-        enterButton.onClick.Invoke();
+        //enterButton.onClick.Invoke();
     }
 
     public void CapsPressed()
