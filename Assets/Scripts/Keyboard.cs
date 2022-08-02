@@ -12,6 +12,7 @@ public class Keyboard : MonoBehaviour
     public TMP_InputField inputField;
     public GameObject normalButtons;
     public GameObject capsButtons;
+    public UnityEngine.UI.Button enterButton;
   
     private bool caps;
 
@@ -53,7 +54,7 @@ public class Keyboard : MonoBehaviour
 
     public void EnterPressed()
     {
-        //enterButton.onClick.Invoke();
+        enterButton.onClick.Invoke();
     }
 
     public void CapsPressed()

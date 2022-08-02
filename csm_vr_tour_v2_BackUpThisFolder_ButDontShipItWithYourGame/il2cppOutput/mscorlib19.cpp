@@ -3926,33 +3926,33 @@ struct Exception_t_marshaled_com
 struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 
 {
 	// Interop/Sys/FileStatus System.IO.FileStatus::_fileStatus
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_0;
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_3;
 	// System.Int32 System.IO.FileStatus::_fileStatusInitialized
-	int32_t ____fileStatusInitialized_1;
+	int32_t ____fileStatusInitialized_4;
 	// System.Boolean System.IO.FileStatus::<InitiallyDirectory>k__BackingField
-	bool ___U3CInitiallyDirectoryU3Ek__BackingField_2;
+	bool ___U3CInitiallyDirectoryU3Ek__BackingField_5;
 	// System.Boolean System.IO.FileStatus::_isDirectory
-	bool ____isDirectory_3;
+	bool ____isDirectory_6;
 	// System.Boolean System.IO.FileStatus::_exists
-	bool ____exists_4;
+	bool ____exists_7;
 };
 // Native definition for P/Invoke marshalling of System.IO.FileStatus
 struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke
 {
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_0;
-	int32_t ____fileStatusInitialized_1;
-	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField_2;
-	int32_t ____isDirectory_3;
-	int32_t ____exists_4;
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_3;
+	int32_t ____fileStatusInitialized_4;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField_5;
+	int32_t ____isDirectory_6;
+	int32_t ____exists_7;
 };
 // Native definition for COM marshalling of System.IO.FileStatus
 struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com
 {
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_0;
-	int32_t ____fileStatusInitialized_1;
-	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField_2;
-	int32_t ____isDirectory_3;
-	int32_t ____exists_4;
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_3;
+	int32_t ____fileStatusInitialized_4;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField_5;
+	int32_t ____isDirectory_6;
+	int32_t ____exists_7;
 };
 
 // System.IO.MonoIO
@@ -31400,7 +31400,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ReadOnlySpan_1_t59614EA6E51A945A3
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FileStatus_get_InitiallyDirectory_m6125259DBE392F2F4FC0D2FADB1E552127A22CB9_inline (FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->___U3CInitiallyDirectoryU3Ek__BackingField_2;
+		bool L_0 = __this->___U3CInitiallyDirectoryU3Ek__BackingField_5;
 		return L_0;
 	}
 }

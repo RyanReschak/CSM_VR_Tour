@@ -934,6 +934,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* FieldBuilder_get_FieldType_m82C12FCFEE94535
 IL2CPP_EXTERN_C const RuntimeMethod* FieldBuilder_get_Name_m73CABC86BBC21865721D89F24E87D44114C38D09_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FieldBuilder_get_ReflectedType_mAF91E0B78198D6080EB83673378640E71EB6F0B7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FileInfo__ctor_m5A03D93B1400D7D35F89C036316AC78CB24328C2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FileInfo_get_Length_m7FADCE0E3C88678C0A7BFA694786C02AD652A33B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FileStatus_EnsureStatInitialized_mD0058164111A0AE3DFD84DD01E86BA14D80F8DA8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FileStream_BeginRead_mAF1D444E4DB43E2DD74A8EF58ECB5DEDE2F6B718_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FileStream_BeginWrite_m4ED11D71A64ECE16272D4282267D90C72FA893D3_RuntimeMethod_var;
@@ -4024,33 +4025,33 @@ struct FieldBuilder_tFCE2E490435F978A3C4DC9340920C3C32CE74889  : public FieldInf
 struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 
 {
 	// Interop/Sys/FileStatus System.IO.FileStatus::_fileStatus
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_0;
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_3;
 	// System.Int32 System.IO.FileStatus::_fileStatusInitialized
-	int32_t ____fileStatusInitialized_1;
+	int32_t ____fileStatusInitialized_4;
 	// System.Boolean System.IO.FileStatus::<InitiallyDirectory>k__BackingField
-	bool ___U3CInitiallyDirectoryU3Ek__BackingField_2;
+	bool ___U3CInitiallyDirectoryU3Ek__BackingField_5;
 	// System.Boolean System.IO.FileStatus::_isDirectory
-	bool ____isDirectory_3;
+	bool ____isDirectory_6;
 	// System.Boolean System.IO.FileStatus::_exists
-	bool ____exists_4;
+	bool ____exists_7;
 };
 // Native definition for P/Invoke marshalling of System.IO.FileStatus
 struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke
 {
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_0;
-	int32_t ____fileStatusInitialized_1;
-	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField_2;
-	int32_t ____isDirectory_3;
-	int32_t ____exists_4;
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_3;
+	int32_t ____fileStatusInitialized_4;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField_5;
+	int32_t ____isDirectory_6;
+	int32_t ____exists_7;
 };
 // Native definition for COM marshalling of System.IO.FileStatus
 struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com
 {
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_0;
-	int32_t ____fileStatusInitialized_1;
-	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField_2;
-	int32_t ____isDirectory_3;
-	int32_t ____exists_4;
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_3;
+	int32_t ____fileStatusInitialized_4;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField_5;
+	int32_t ____isDirectory_6;
+	int32_t ____exists_7;
 };
 
 // System.IO.FileStream
@@ -6151,6 +6152,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_InternalWriteAllBytes_m0B76F86E1694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileInfo__ctor_m5A03D93B1400D7D35F89C036316AC78CB24328C2 (FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* __this, String_t* ___originalPath0, String_t* ___fullPath1, String_t* ___fileName2, bool ___isNormalized3, const RuntimeMethod* method) ;
 // System.String System.IO.Path::GetFileName(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetFileName_mEBC73E0C8D8C56214D1DA4BA8409C5B5F00457A5 (String_t* ___path0, const RuntimeMethod* method) ;
+// System.IO.FileAttributes System.IO.FileSystemInfo::get_Attributes()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileSystemInfo_get_Attributes_m38971A5B147214C5EE193CE9F60628EA834EF6DA (FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* __this, const RuntimeMethod* method) ;
+// System.Void System.IO.FileNotFoundException::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileNotFoundException__ctor_mC4247CABF75A7B484A21790CD7F8EFA8AC101677 (FileNotFoundException_t17F1B49AD996E4A60C87C7ADC9D3A25EB5808A9A* __this, String_t* ___message0, String_t* ___fileName1, const RuntimeMethod* method) ;
+// System.Int64 System.IO.FileSystemInfo::get_LengthCore()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t FileSystemInfo_get_LengthCore_mDDFE18FF2A7B8948308DD9A8559056DCCC65BED3 (FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* __this, const RuntimeMethod* method) ;
 // System.String System.IO.FileInfo::get_DirectoryName()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileInfo_get_DirectoryName_mB5EEA9943438C6C0F92767B0B12287A1E75FF1A1 (FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* __this, const RuntimeMethod* method) ;
 // System.Void System.IO.DirectoryInfo::.ctor(System.String)
@@ -6173,6 +6180,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileStatus_GetAttributes_mC4CC0F43821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStatus_Refresh_mBA0C3866B8BD1A7880E9D25540F85CA4A3410327 (FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* __this, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___path0, const RuntimeMethod* method) ;
 // System.Boolean System.IO.FileStatus::GetExists(System.ReadOnlySpan`1<System.Char>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileStatus_GetExists_mAE616C6D2A1BEC457312D09041C38181F3E04BD2 (FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* __this, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___path0, const RuntimeMethod* method) ;
+// System.Int64 System.IO.FileStatus::GetLength(System.ReadOnlySpan`1<System.Char>,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t FileStatus_GetLength_mC89C0DCC8B7E55A7D58C6A2ADDD09F2D2E7E7D4E (FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* __this, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___path0, bool ___continueOnError1, const RuntimeMethod* method) ;
 // System.Int32 Interop/Sys::LStat(System.ReadOnlySpan`1<System.Char>,Interop/Sys/FileStatus&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sys_LStat_m83DE72F0BFA5A766F46578EDE2565A52A96A58A2 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___path0, FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* ___output1, const RuntimeMethod* method) ;
 // Interop/ErrorInfo Interop/Sys::GetLastErrorInfo()
@@ -6237,8 +6246,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sys_MkDir_m02E3569F2B74205D1C246755C6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileSystem_DirectoryExists_mBB2C3A23097856C36EF9C3912D99FEB7E3B0D34E (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___fullPath0, ErrorInfo_t776D0DEFF42C5321EB2548D87ED238CBE55467F8* ___errorInfo1, const RuntimeMethod* method) ;
 // System.Void System.IO.FileSystem::RemoveDirectoryInternal(System.IO.DirectoryInfo,System.Boolean,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystem_RemoveDirectoryInternal_mFC4A4486D8615522FB705989B12ACDD66B45B470 (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* ___directory0, bool ___recursive1, bool ___throwOnTopLevelDirectoryNotFound2, const RuntimeMethod* method) ;
-// System.IO.FileAttributes System.IO.FileSystemInfo::get_Attributes()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileSystemInfo_get_Attributes_m38971A5B147214C5EE193CE9F60628EA834EF6DA (FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* __this, const RuntimeMethod* method) ;
 // System.Collections.Generic.IEnumerable`1<System.String> System.IO.Directory::EnumerateFileSystemEntries(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Directory_EnumerateFileSystemEntries_mD939EFFC667EC09ED16E177F364A3F71CF3F8641 (String_t* ___path0, const RuntimeMethod* method) ;
 // System.Boolean System.IO.FileSystem::ShouldIgnoreDirectory(System.String)
@@ -6526,8 +6533,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* __Error_GetDisplayablePath_m6A29291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileNotFoundException__ctor_mA8C9C93DB8C5B96D6B5E59B2AE07154F265FB1A1 (FileNotFoundException_t17F1B49AD996E4A60C87C7ADC9D3A25EB5808A9A* __this, String_t* ___message0, const RuntimeMethod* method) ;
 // System.String System.Environment::GetResourceString(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Environment_GetResourceString_mC277DAD3553D0E17EA5FBCCD2EF710CF3A61D171 (String_t* ___key0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___values1, const RuntimeMethod* method) ;
-// System.Void System.IO.FileNotFoundException::.ctor(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileNotFoundException__ctor_mC4247CABF75A7B484A21790CD7F8EFA8AC101677 (FileNotFoundException_t17F1B49AD996E4A60C87C7ADC9D3A25EB5808A9A* __this, String_t* ___message0, String_t* ___fileName1, const RuntimeMethod* method) ;
 // System.Void System.IO.DirectoryNotFoundException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DirectoryNotFoundException__ctor_mA7F098E81D1D163C09BF5E64A34634290B76F235 (DirectoryNotFoundException_tBE92A20AAC24C3B22DE38973ABE6886FA97419BF* __this, String_t* ___message0, const RuntimeMethod* method) ;
 // System.Int32 Microsoft.Win32.Win32Native::MakeHRFromErrorCode(System.Int32)
@@ -6612,6 +6617,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Locale_GetText_mB5E9ECC1E9AAA230D96
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeFileHandle__ctor_mDF2AFEC596DE2F6BD8FBB977135DAC23703213A2 (SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* __this, intptr_t ___preexistingHandle0, bool ___ownsHandle1, const RuntimeMethod* method) ;
 // System.Void System.IO.FileStream::Init(Microsoft.Win32.SafeHandles.SafeFileHandle,System.IO.FileAccess,System.Boolean,System.Int32,System.Boolean,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStream_Init_m32797A64AA4EC19AB931C011D6FA317380A67D61 (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* __this, SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle0, int32_t ___access1, bool ___ownsHandle2, int32_t ___bufferSize3, bool ___isAsync4, bool ___isConsoleWrapper5, const RuntimeMethod* method) ;
+// System.Void System.IO.FileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32,System.Boolean,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStream__ctor_m91A43EE01E8AB9C4B04681486E6F0B598642EA01 (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* __this, String_t* ___path0, int32_t ___mode1, int32_t ___access2, int32_t ___share3, int32_t ___bufferSize4, bool ___isAsync5, bool ___anonymous6, const RuntimeMethod* method) ;
 // System.Void System.IO.FileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32,System.Boolean,System.IO.FileOptions)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStream__ctor_m16C2A184C2E9D43D0DC7ECFB1659F0299400E416 (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* __this, String_t* ___path0, int32_t ___mode1, int32_t ___access2, int32_t ___share3, int32_t ___bufferSize4, bool ___anonymous5, int32_t ___options6, const RuntimeMethod* method) ;
 // System.Int32 System.String::IndexOfAny(System.Char[])
@@ -12875,7 +12882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamReader_Init_mA0A33EEB35E8570B3D4CA
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_2 = ___encoding1;
 		NullCheck(L_2);
 		Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* L_3;
-		L_3 = VirtualFuncInvoker0< Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* >::Invoke(29 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, L_2);
+		L_3 = VirtualFuncInvoker0< Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* >::Invoke(31 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, L_2);
 		__this->____decoder_5 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____decoder_5), (void*)L_3);
 		int32_t L_4 = ___bufferSize3;
@@ -12898,7 +12905,7 @@ IL_002a:
 		int32_t L_8 = ___bufferSize3;
 		NullCheck(L_7);
 		int32_t L_9;
-		L_9 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(32 /* System.Int32 System.Text.Encoding::GetMaxCharCount(System.Int32) */, L_7, L_8);
+		L_9 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(34 /* System.Int32 System.Text.Encoding::GetMaxCharCount(System.Int32) */, L_7, L_8);
 		__this->____maxCharsPerBuffer_12 = L_9;
 		int32_t L_10 = __this->____maxCharsPerBuffer_12;
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_11 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)L_10);
@@ -13772,7 +13779,7 @@ IL_0166:
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_50 = __this->____encoding_4;
 		NullCheck(L_50);
 		Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* L_51;
-		L_51 = VirtualFuncInvoker0< Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* >::Invoke(29 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, L_50);
+		L_51 = VirtualFuncInvoker0< Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* >::Invoke(31 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, L_50);
 		__this->____decoder_5 = L_51;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____decoder_5), (void*)L_51);
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_52 = __this->____encoding_4;
@@ -13780,7 +13787,7 @@ IL_0166:
 		NullCheck(L_53);
 		NullCheck(L_52);
 		int32_t L_54;
-		L_54 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(32 /* System.Int32 System.Text.Encoding::GetMaxCharCount(System.Int32) */, L_52, ((int32_t)(((RuntimeArray*)L_53)->max_length)));
+		L_54 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(34 /* System.Int32 System.Text.Encoding::GetMaxCharCount(System.Int32) */, L_52, ((int32_t)(((RuntimeArray*)L_53)->max_length)));
 		V_1 = L_54;
 		int32_t L_55 = V_1;
 		int32_t L_56 = __this->____maxCharsPerBuffer_12;
@@ -15049,7 +15056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamWriter_Init_m87624EC42F9CD27B6D438
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_2 = __this->____encoding_8;
 		NullCheck(L_2);
 		Encoder_tAF9067231A76315584BDF4CD27990E2F485A78FA* L_3;
-		L_3 = VirtualFuncInvoker0< Encoder_tAF9067231A76315584BDF4CD27990E2F485A78FA* >::Invoke(30 /* System.Text.Encoder System.Text.Encoding::GetEncoder() */, L_2);
+		L_3 = VirtualFuncInvoker0< Encoder_tAF9067231A76315584BDF4CD27990E2F485A78FA* >::Invoke(32 /* System.Text.Encoder System.Text.Encoding::GetEncoder() */, L_2);
 		__this->____encoder_9 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____encoder_9), (void*)L_3);
 		int32_t L_4 = ___bufferSize2;
@@ -15072,7 +15079,7 @@ IL_002e:
 		int32_t L_8 = ___bufferSize2;
 		NullCheck(L_7);
 		int32_t L_9;
-		L_9 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(31 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_7, L_8);
+		L_9 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(33 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_7, L_8);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_9);
 		__this->____byteBuffer_10 = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____byteBuffer_10), (void*)L_10);
@@ -21043,6 +21050,35 @@ IL_0048:
 		return;
 	}
 }
+// System.Int64 System.IO.FileInfo::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t FileInfo_get_Length_m7FADCE0E3C88678C0A7BFA694786C02AD652A33B (FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0;
+		L_0 = FileSystemInfo_get_Attributes_m38971A5B147214C5EE193CE9F60628EA834EF6DA(__this, NULL);
+		if ((!(((uint32_t)((int32_t)((int32_t)L_0&((int32_t)16)))) == ((uint32_t)((int32_t)16)))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		String_t* L_1 = ((FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9*)__this)->___FullPath_2;
+		String_t* L_2;
+		L_2 = SR_Format_mB99C6F1BE061EA1427A45176E0CAFB2A2C76D03F(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3C6CF51A587C627F6C6EE34036C6723F4B925EFF)), L_1, NULL);
+		String_t* L_3 = ((FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9*)__this)->___FullPath_2;
+		FileNotFoundException_t17F1B49AD996E4A60C87C7ADC9D3A25EB5808A9A* L_4 = (FileNotFoundException_t17F1B49AD996E4A60C87C7ADC9D3A25EB5808A9A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FileNotFoundException_t17F1B49AD996E4A60C87C7ADC9D3A25EB5808A9A_il2cpp_TypeInfo_var)));
+		NullCheck(L_4);
+		FileNotFoundException__ctor_mC4247CABF75A7B484A21790CD7F8EFA8AC101677(L_4, L_2, L_3, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FileInfo_get_Length_m7FADCE0E3C88678C0A7BFA694786C02AD652A33B_RuntimeMethod_var)));
+	}
+
+IL_0029:
+	{
+		int64_t L_5;
+		L_5 = FileSystemInfo_get_LengthCore_mDDFE18FF2A7B8948308DD9A8559056DCCC65BED3(__this, NULL);
+		return L_5;
+	}
+}
 // System.String System.IO.FileInfo::get_DirectoryName()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileInfo_get_DirectoryName_mB5EEA9943438C6C0F92767B0B12287A1E75FF1A1 (FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* __this, const RuntimeMethod* method) 
 {
@@ -21122,30 +21158,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileInfo_get_Name_mDC3942CE030CCEDB
 // Conversion methods for marshalling of: System.IO.FileStatus
 IL2CPP_EXTERN_C void FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshal_pinvoke(const FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5& unmarshaled, FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke& marshaled)
 {
-	marshaled.____fileStatus_0 = unmarshaled.____fileStatus_0;
-	marshaled.____fileStatusInitialized_1 = unmarshaled.____fileStatusInitialized_1;
-	marshaled.___U3CInitiallyDirectoryU3Ek__BackingField_2 = static_cast<int32_t>(unmarshaled.___U3CInitiallyDirectoryU3Ek__BackingField_2);
-	marshaled.____isDirectory_3 = static_cast<int32_t>(unmarshaled.____isDirectory_3);
-	marshaled.____exists_4 = static_cast<int32_t>(unmarshaled.____exists_4);
+	marshaled.____fileStatus_3 = unmarshaled.____fileStatus_3;
+	marshaled.____fileStatusInitialized_4 = unmarshaled.____fileStatusInitialized_4;
+	marshaled.___U3CInitiallyDirectoryU3Ek__BackingField_5 = static_cast<int32_t>(unmarshaled.___U3CInitiallyDirectoryU3Ek__BackingField_5);
+	marshaled.____isDirectory_6 = static_cast<int32_t>(unmarshaled.____isDirectory_6);
+	marshaled.____exists_7 = static_cast<int32_t>(unmarshaled.____exists_7);
 }
 IL2CPP_EXTERN_C void FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshal_pinvoke_back(const FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke& marshaled, FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5& unmarshaled)
 {
 	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 unmarshaled_fileStatus_temp_0;
 	memset((&unmarshaled_fileStatus_temp_0), 0, sizeof(unmarshaled_fileStatus_temp_0));
-	unmarshaled_fileStatus_temp_0 = marshaled.____fileStatus_0;
-	unmarshaled.____fileStatus_0 = unmarshaled_fileStatus_temp_0;
+	unmarshaled_fileStatus_temp_0 = marshaled.____fileStatus_3;
+	unmarshaled.____fileStatus_3 = unmarshaled_fileStatus_temp_0;
 	int32_t unmarshaled_fileStatusInitialized_temp_1 = 0;
-	unmarshaled_fileStatusInitialized_temp_1 = marshaled.____fileStatusInitialized_1;
-	unmarshaled.____fileStatusInitialized_1 = unmarshaled_fileStatusInitialized_temp_1;
+	unmarshaled_fileStatusInitialized_temp_1 = marshaled.____fileStatusInitialized_4;
+	unmarshaled.____fileStatusInitialized_4 = unmarshaled_fileStatusInitialized_temp_1;
 	bool unmarshaledU3CInitiallyDirectoryU3Ek__BackingField_temp_2 = false;
-	unmarshaledU3CInitiallyDirectoryU3Ek__BackingField_temp_2 = static_cast<bool>(marshaled.___U3CInitiallyDirectoryU3Ek__BackingField_2);
-	unmarshaled.___U3CInitiallyDirectoryU3Ek__BackingField_2 = unmarshaledU3CInitiallyDirectoryU3Ek__BackingField_temp_2;
+	unmarshaledU3CInitiallyDirectoryU3Ek__BackingField_temp_2 = static_cast<bool>(marshaled.___U3CInitiallyDirectoryU3Ek__BackingField_5);
+	unmarshaled.___U3CInitiallyDirectoryU3Ek__BackingField_5 = unmarshaledU3CInitiallyDirectoryU3Ek__BackingField_temp_2;
 	bool unmarshaled_isDirectory_temp_3 = false;
-	unmarshaled_isDirectory_temp_3 = static_cast<bool>(marshaled.____isDirectory_3);
-	unmarshaled.____isDirectory_3 = unmarshaled_isDirectory_temp_3;
+	unmarshaled_isDirectory_temp_3 = static_cast<bool>(marshaled.____isDirectory_6);
+	unmarshaled.____isDirectory_6 = unmarshaled_isDirectory_temp_3;
 	bool unmarshaled_exists_temp_4 = false;
-	unmarshaled_exists_temp_4 = static_cast<bool>(marshaled.____exists_4);
-	unmarshaled.____exists_4 = unmarshaled_exists_temp_4;
+	unmarshaled_exists_temp_4 = static_cast<bool>(marshaled.____exists_7);
+	unmarshaled.____exists_7 = unmarshaled_exists_temp_4;
 }
 // Conversion method for clean up from marshalling of: System.IO.FileStatus
 IL2CPP_EXTERN_C void FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshal_pinvoke_cleanup(FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke& marshaled)
@@ -21154,30 +21190,30 @@ IL2CPP_EXTERN_C void FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marsha
 // Conversion methods for marshalling of: System.IO.FileStatus
 IL2CPP_EXTERN_C void FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshal_com(const FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5& unmarshaled, FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com& marshaled)
 {
-	marshaled.____fileStatus_0 = unmarshaled.____fileStatus_0;
-	marshaled.____fileStatusInitialized_1 = unmarshaled.____fileStatusInitialized_1;
-	marshaled.___U3CInitiallyDirectoryU3Ek__BackingField_2 = static_cast<int32_t>(unmarshaled.___U3CInitiallyDirectoryU3Ek__BackingField_2);
-	marshaled.____isDirectory_3 = static_cast<int32_t>(unmarshaled.____isDirectory_3);
-	marshaled.____exists_4 = static_cast<int32_t>(unmarshaled.____exists_4);
+	marshaled.____fileStatus_3 = unmarshaled.____fileStatus_3;
+	marshaled.____fileStatusInitialized_4 = unmarshaled.____fileStatusInitialized_4;
+	marshaled.___U3CInitiallyDirectoryU3Ek__BackingField_5 = static_cast<int32_t>(unmarshaled.___U3CInitiallyDirectoryU3Ek__BackingField_5);
+	marshaled.____isDirectory_6 = static_cast<int32_t>(unmarshaled.____isDirectory_6);
+	marshaled.____exists_7 = static_cast<int32_t>(unmarshaled.____exists_7);
 }
 IL2CPP_EXTERN_C void FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshal_com_back(const FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com& marshaled, FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5& unmarshaled)
 {
 	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 unmarshaled_fileStatus_temp_0;
 	memset((&unmarshaled_fileStatus_temp_0), 0, sizeof(unmarshaled_fileStatus_temp_0));
-	unmarshaled_fileStatus_temp_0 = marshaled.____fileStatus_0;
-	unmarshaled.____fileStatus_0 = unmarshaled_fileStatus_temp_0;
+	unmarshaled_fileStatus_temp_0 = marshaled.____fileStatus_3;
+	unmarshaled.____fileStatus_3 = unmarshaled_fileStatus_temp_0;
 	int32_t unmarshaled_fileStatusInitialized_temp_1 = 0;
-	unmarshaled_fileStatusInitialized_temp_1 = marshaled.____fileStatusInitialized_1;
-	unmarshaled.____fileStatusInitialized_1 = unmarshaled_fileStatusInitialized_temp_1;
+	unmarshaled_fileStatusInitialized_temp_1 = marshaled.____fileStatusInitialized_4;
+	unmarshaled.____fileStatusInitialized_4 = unmarshaled_fileStatusInitialized_temp_1;
 	bool unmarshaledU3CInitiallyDirectoryU3Ek__BackingField_temp_2 = false;
-	unmarshaledU3CInitiallyDirectoryU3Ek__BackingField_temp_2 = static_cast<bool>(marshaled.___U3CInitiallyDirectoryU3Ek__BackingField_2);
-	unmarshaled.___U3CInitiallyDirectoryU3Ek__BackingField_2 = unmarshaledU3CInitiallyDirectoryU3Ek__BackingField_temp_2;
+	unmarshaledU3CInitiallyDirectoryU3Ek__BackingField_temp_2 = static_cast<bool>(marshaled.___U3CInitiallyDirectoryU3Ek__BackingField_5);
+	unmarshaled.___U3CInitiallyDirectoryU3Ek__BackingField_5 = unmarshaledU3CInitiallyDirectoryU3Ek__BackingField_temp_2;
 	bool unmarshaled_isDirectory_temp_3 = false;
-	unmarshaled_isDirectory_temp_3 = static_cast<bool>(marshaled.____isDirectory_3);
-	unmarshaled.____isDirectory_3 = unmarshaled_isDirectory_temp_3;
+	unmarshaled_isDirectory_temp_3 = static_cast<bool>(marshaled.____isDirectory_6);
+	unmarshaled.____isDirectory_6 = unmarshaled_isDirectory_temp_3;
 	bool unmarshaled_exists_temp_4 = false;
-	unmarshaled_exists_temp_4 = static_cast<bool>(marshaled.____exists_4);
-	unmarshaled.____exists_4 = unmarshaled_exists_temp_4;
+	unmarshaled_exists_temp_4 = static_cast<bool>(marshaled.____exists_7);
+	unmarshaled.____exists_7 = unmarshaled_exists_temp_4;
 }
 // Conversion method for clean up from marshalling of: System.IO.FileStatus
 IL2CPP_EXTERN_C void FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshal_com_cleanup(FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com& marshaled)
@@ -21187,7 +21223,7 @@ IL2CPP_EXTERN_C void FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marsha
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileStatus_get_InitiallyDirectory_m6125259DBE392F2F4FC0D2FADB1E552127A22CB9 (FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->___U3CInitiallyDirectoryU3Ek__BackingField_2;
+		bool L_0 = __this->___U3CInitiallyDirectoryU3Ek__BackingField_5;
 		return L_0;
 	}
 }
@@ -21205,7 +21241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStatus_set_InitiallyDirectory_mF8349
 {
 	{
 		bool L_0 = ___value0;
-		__this->___U3CInitiallyDirectoryU3Ek__BackingField_2 = L_0;
+		__this->___U3CInitiallyDirectoryU3Ek__BackingField_5 = L_0;
 		return;
 	}
 }
@@ -21224,7 +21260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStatus_Initialize_mC6B1489A9A67B0B17
 		bool L_1 = ___isDirectory1;
 		FileStatus_set_InitiallyDirectory_mF8349D02ACC4BC00622B5E760CA721DAF562C6FC_inline(L_0, L_1, NULL);
 		FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* L_2 = ___status0;
-		L_2->____fileStatusInitialized_1 = (-1);
+		L_2->____fileStatusInitialized_4 = (-1);
 		return;
 	}
 }
@@ -21243,7 +21279,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileStatus_IsReadOnly_mC6B1D721E574A7A96
 		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_0 = ___path0;
 		bool L_1 = ___continueOnError1;
 		FileStatus_EnsureStatInitialized_mD0058164111A0AE3DFD84DD01E86BA14D80F8DA8(__this, L_0, L_1, NULL);
-		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_2 = (&__this->____fileStatus_0);
+		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_2 = (&__this->____fileStatus_3);
 		uint32_t L_3 = L_2->___Uid_2;
 		il2cpp_codegen_runtime_class_init_inline(Sys_tE4FBEFBB8F788192C8E494DA0EC7EFE86D952AD8_il2cpp_TypeInfo_var);
 		uint32_t L_4;
@@ -21261,7 +21297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileStatus_IsReadOnly_mC6B1D721E574A7A96
 
 IL_0028:
 	{
-		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_5 = (&__this->____fileStatus_0);
+		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_5 = (&__this->____fileStatus_3);
 		uint32_t L_6 = L_5->___Gid_3;
 		il2cpp_codegen_runtime_class_init_inline(Sys_tE4FBEFBB8F788192C8E494DA0EC7EFE86D952AD8_il2cpp_TypeInfo_var);
 		uint32_t L_7;
@@ -21285,7 +21321,7 @@ IL_0042:
 
 IL_0046:
 	{
-		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_8 = (&__this->____fileStatus_0);
+		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_8 = (&__this->____fileStatus_3);
 		int32_t L_9 = L_8->___Mode_1;
 		int32_t L_10 = V_0;
 		if (!((int32_t)(L_9&(int32_t)L_10)))
@@ -21294,7 +21330,7 @@ IL_0046:
 		}
 	}
 	{
-		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_11 = (&__this->____fileStatus_0);
+		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_11 = (&__this->____fileStatus_3);
 		int32_t L_12 = L_11->___Mode_1;
 		int32_t L_13 = V_1;
 		return (bool)((((int32_t)((int32_t)(L_12&(int32_t)L_13))) == ((int32_t)0))? 1 : 0);
@@ -21327,7 +21363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileStatus_GetAttributes_mC4CC0F43821
 	{
 		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_0 = ___path0;
 		FileStatus_EnsureStatInitialized_mD0058164111A0AE3DFD84DD01E86BA14D80F8DA8(__this, L_0, (bool)0, NULL);
-		bool L_1 = __this->____exists_4;
+		bool L_1 = __this->____exists_7;
 		if (L_1)
 		{
 			goto IL_0012;
@@ -21355,7 +21391,7 @@ IL_0012:
 
 IL_0022:
 	{
-		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_5 = (&__this->____fileStatus_0);
+		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_5 = (&__this->____fileStatus_3);
 		int32_t L_6 = L_5->___Mode_1;
 		if ((!(((uint32_t)((int32_t)(L_6&((int32_t)61440)))) == ((uint32_t)((int32_t)40960)))))
 		{
@@ -21369,7 +21405,7 @@ IL_0022:
 
 IL_0042:
 	{
-		bool L_8 = __this->____isDirectory_3;
+		bool L_8 = __this->____isDirectory_6;
 		if (!L_8)
 		{
 			goto IL_004f;
@@ -21399,7 +21435,7 @@ IL_004f:
 		}
 	}
 	{
-		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_13 = (&__this->____fileStatus_0);
+		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_13 = (&__this->____fileStatus_3);
 		uint32_t L_14 = L_13->___UserFlags_15;
 		if ((!(((uint32_t)((int32_t)((int32_t)L_14&((int32_t)32768)))) == ((uint32_t)((int32_t)32768)))))
 		{
@@ -21444,7 +21480,7 @@ IL2CPP_EXTERN_C  int32_t FileStatus_GetAttributes_mC4CC0F4382185462242A06424C79F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileStatus_GetExists_mAE616C6D2A1BEC457312D09041C38181F3E04BD2 (FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* __this, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___path0, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = __this->____fileStatusInitialized_1;
+		int32_t L_0 = __this->____fileStatusInitialized_4;
 		if ((!(((uint32_t)L_0) == ((uint32_t)(-1)))))
 		{
 			goto IL_0010;
@@ -21457,7 +21493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileStatus_GetExists_mAE616C6D2A1BEC4573
 
 IL_0010:
 	{
-		bool L_2 = __this->____exists_4;
+		bool L_2 = __this->____exists_7;
 		if (!L_2)
 		{
 			goto IL_0027;
@@ -21466,7 +21502,7 @@ IL_0010:
 	{
 		bool L_3;
 		L_3 = FileStatus_get_InitiallyDirectory_m6125259DBE392F2F4FC0D2FADB1E552127A22CB9_inline(__this, NULL);
-		bool L_4 = __this->____isDirectory_3;
+		bool L_4 = __this->____isDirectory_6;
 		return (bool)((((int32_t)L_3) == ((int32_t)L_4))? 1 : 0);
 	}
 
@@ -21484,6 +21520,27 @@ IL2CPP_EXTERN_C  bool FileStatus_GetExists_mAE616C6D2A1BEC457312D09041C38181F3E0
 	_returnValue = FileStatus_GetExists_mAE616C6D2A1BEC457312D09041C38181F3E04BD2(_thisAdjusted, ___path0, method);
 	return _returnValue;
 }
+// System.Int64 System.IO.FileStatus::GetLength(System.ReadOnlySpan`1<System.Char>,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t FileStatus_GetLength_mC89C0DCC8B7E55A7D58C6A2ADDD09F2D2E7E7D4E (FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* __this, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___path0, bool ___continueOnError1, const RuntimeMethod* method) 
+{
+	{
+		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_0 = ___path0;
+		bool L_1 = ___continueOnError1;
+		FileStatus_EnsureStatInitialized_mD0058164111A0AE3DFD84DD01E86BA14D80F8DA8(__this, L_0, L_1, NULL);
+		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_2 = (&__this->____fileStatus_3);
+		int64_t L_3 = L_2->___Size_4;
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  int64_t FileStatus_GetLength_mC89C0DCC8B7E55A7D58C6A2ADDD09F2D2E7E7D4E_AdjustorThunk (RuntimeObject* __this, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___path0, bool ___continueOnError1, const RuntimeMethod* method)
+{
+	FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5*>(__this + _offset);
+	int64_t _returnValue;
+	_returnValue = FileStatus_GetLength_mC89C0DCC8B7E55A7D58C6A2ADDD09F2D2E7E7D4E(_thisAdjusted, ___path0, ___continueOnError1, method);
+	return _returnValue;
+}
 // System.Void System.IO.FileStatus::Refresh(System.ReadOnlySpan`1<System.Char>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStatus_Refresh_mBA0C3866B8BD1A7880E9D25540F85CA4A3410327 (FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* __this, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___path0, const RuntimeMethod* method) 
 {
@@ -21499,14 +21556,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStatus_Refresh_mBA0C3866B8BD1A7880E9
 	ErrorInfo_t776D0DEFF42C5321EB2548D87ED238CBE55467F8 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		__this->____isDirectory_3 = (bool)0;
+		__this->____isDirectory_6 = (bool)0;
 		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_0 = ___path0;
 		il2cpp_codegen_runtime_class_init_inline(PathInternal_t40910AF78E21C3A6C83D095423B3EADE9AC5261C_il2cpp_TypeInfo_var);
 		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_1;
 		L_1 = PathInternal_TrimEndingDirectorySeparator_mE67F07C48C5D58504FDFB5CFCF303F37622D3243(L_0, NULL);
 		___path0 = L_1;
 		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_2 = ___path0;
-		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_3 = (&__this->____fileStatus_0);
+		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_3 = (&__this->____fileStatus_3);
 		il2cpp_codegen_runtime_class_init_inline(Sys_tE4FBEFBB8F788192C8E494DA0EC7EFE86D952AD8_il2cpp_TypeInfo_var);
 		int32_t L_4;
 		L_4 = Sys_LStat_m83DE72F0BFA5A766F46578EDE2565A52A96A58A2(L_2, L_3, NULL);
@@ -21538,8 +21595,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStatus_Refresh_mBA0C3866B8BD1A7880E9
 
 IL_0040:
 	{
-		__this->____fileStatusInitialized_1 = 0;
-		__this->____exists_4 = (bool)0;
+		__this->____fileStatusInitialized_4 = 0;
+		__this->____exists_7 = (bool)0;
 		return;
 	}
 
@@ -21547,17 +21604,17 @@ IL_004f:
 	{
 		int32_t L_8;
 		L_8 = ErrorInfo_get_RawErrno_m1B6C0E156EF3B567945C1389B2B111C1A6FEB027((&V_1), NULL);
-		__this->____fileStatusInitialized_1 = L_8;
+		__this->____fileStatusInitialized_4 = L_8;
 		return;
 	}
 
 IL_005d:
 	{
-		__this->____exists_4 = (bool)1;
-		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_9 = (&__this->____fileStatus_0);
+		__this->____exists_7 = (bool)1;
+		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_9 = (&__this->____fileStatus_3);
 		int32_t L_10 = L_9->___Mode_1;
-		__this->____isDirectory_3 = (bool)((((int32_t)((int32_t)(L_10&((int32_t)61440)))) == ((int32_t)((int32_t)16384)))? 1 : 0);
-		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_11 = (&__this->____fileStatus_0);
+		__this->____isDirectory_6 = (bool)((((int32_t)((int32_t)(L_10&((int32_t)61440)))) == ((int32_t)((int32_t)16384)))? 1 : 0);
+		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2* L_11 = (&__this->____fileStatus_3);
 		int32_t L_12 = L_11->___Mode_1;
 		if ((!(((uint32_t)((int32_t)(L_12&((int32_t)61440)))) == ((uint32_t)((int32_t)40960)))))
 		{
@@ -21577,12 +21634,12 @@ IL_005d:
 	{
 		FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 L_15 = V_0;
 		int32_t L_16 = L_15.___Mode_1;
-		__this->____isDirectory_3 = (bool)((((int32_t)((int32_t)(L_16&((int32_t)61440)))) == ((int32_t)((int32_t)16384)))? 1 : 0);
+		__this->____isDirectory_6 = (bool)((((int32_t)((int32_t)(L_16&((int32_t)61440)))) == ((int32_t)((int32_t)16384)))? 1 : 0);
 	}
 
 IL_00be:
 	{
-		__this->____fileStatusInitialized_1 = 0;
+		__this->____fileStatusInitialized_4 = 0;
 		return;
 	}
 }
@@ -21597,7 +21654,7 @@ IL2CPP_EXTERN_C  void FileStatus_Refresh_mBA0C3866B8BD1A7880E9D25540F85CA4A34103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStatus_EnsureStatInitialized_mD0058164111A0AE3DFD84DD01E86BA14D80F8DA8 (FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* __this, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___path0, bool ___continueOnError1, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = __this->____fileStatusInitialized_1;
+		int32_t L_0 = __this->____fileStatusInitialized_4;
 		if ((!(((uint32_t)L_0) == ((uint32_t)(-1)))))
 		{
 			goto IL_0010;
@@ -21610,7 +21667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStatus_EnsureStatInitialized_mD00581
 
 IL_0010:
 	{
-		int32_t L_2 = __this->____fileStatusInitialized_1;
+		int32_t L_2 = __this->____fileStatusInitialized_4;
 		if (!L_2)
 		{
 			goto IL_003a;
@@ -21624,8 +21681,8 @@ IL_0010:
 		}
 	}
 	{
-		int32_t L_4 = __this->____fileStatusInitialized_1;
-		__this->____fileStatusInitialized_1 = (-1);
+		int32_t L_4 = __this->____fileStatusInitialized_4;
+		__this->____fileStatusInitialized_4 = (-1);
 		ErrorInfo_t776D0DEFF42C5321EB2548D87ED238CBE55467F8 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		ErrorInfo__ctor_m69D7F33C0932334C68D390C3249427538AB6BDBA((&L_5), L_4, /*hidden argument*/NULL);
@@ -23012,6 +23069,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileSystemInfo_get_ExistsCore_mBB14E67D5
 		L_2 = String_op_Implicit_m43FB5A30521770D4C28C1307CF89F80BA3535CAC_inline(L_1, NULL);
 		bool L_3;
 		L_3 = FileStatus_GetExists_mAE616C6D2A1BEC457312D09041C38181F3E04BD2(L_0, L_2, NULL);
+		return L_3;
+	}
+}
+// System.Int64 System.IO.FileSystemInfo::get_LengthCore()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t FileSystemInfo_get_LengthCore_mDDFE18FF2A7B8948308DD9A8559056DCCC65BED3 (FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* __this, const RuntimeMethod* method) 
+{
+	{
+		FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* L_0 = (&__this->____fileStatus_1);
+		String_t* L_1 = __this->___FullPath_2;
+		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_2;
+		L_2 = String_op_Implicit_m43FB5A30521770D4C28C1307CF89F80BA3535CAC_inline(L_1, NULL);
+		int64_t L_3;
+		L_3 = FileStatus_GetLength_mC89C0DCC8B7E55A7D58C6A2ADDD09F2D2E7E7D4E(L_0, L_2, (bool)0, NULL);
 		return L_3;
 	}
 }
@@ -27345,18 +27415,18 @@ IL_003a:
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_9 = ___encoding1;
 		NullCheck(L_9);
 		Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* L_10;
-		L_10 = VirtualFuncInvoker0< Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* >::Invoke(29 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, L_9);
+		L_10 = VirtualFuncInvoker0< Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* >::Invoke(31 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, L_9);
 		__this->___m_decoder_2 = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_decoder_2), (void*)L_10);
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_11 = ___encoding1;
 		NullCheck(L_11);
 		int32_t L_12;
-		L_12 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(32 /* System.Int32 System.Text.Encoding::GetMaxCharCount(System.Int32) */, L_11, ((int32_t)128));
+		L_12 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(34 /* System.Int32 System.Text.Encoding::GetMaxCharCount(System.Int32) */, L_11, ((int32_t)128));
 		__this->___m_maxCharsSize_6 = L_12;
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_13 = ___encoding1;
 		NullCheck(L_13);
 		int32_t L_14;
-		L_14 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(31 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_13, 1);
+		L_14 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(33 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_13, 1);
 		V_0 = L_14;
 		int32_t L_15 = V_0;
 		if ((((int32_t)L_15) >= ((int32_t)((int32_t)16))))
@@ -29206,7 +29276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriter__ctor_m860E1F386330088B80E5
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_3 = __this->____encoding_3;
 		NullCheck(L_3);
 		Encoder_tAF9067231A76315584BDF4CD27990E2F485A78FA* L_4;
-		L_4 = VirtualFuncInvoker0< Encoder_tAF9067231A76315584BDF4CD27990E2F485A78FA* >::Invoke(30 /* System.Text.Encoder System.Text.Encoding::GetEncoder() */, L_3);
+		L_4 = VirtualFuncInvoker0< Encoder_tAF9067231A76315584BDF4CD27990E2F485A78FA* >::Invoke(32 /* System.Text.Encoder System.Text.Encoding::GetEncoder() */, L_3);
 		__this->____encoder_4 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____encoder_4), (void*)L_4);
 		return;
@@ -29313,7 +29383,7 @@ IL_003a:
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_11 = __this->____encoding_3;
 		NullCheck(L_11);
 		Encoder_tAF9067231A76315584BDF4CD27990E2F485A78FA* L_12;
-		L_12 = VirtualFuncInvoker0< Encoder_tAF9067231A76315584BDF4CD27990E2F485A78FA* >::Invoke(30 /* System.Text.Encoder System.Text.Encoding::GetEncoder() */, L_11);
+		L_12 = VirtualFuncInvoker0< Encoder_tAF9067231A76315584BDF4CD27990E2F485A78FA* >::Invoke(32 /* System.Text.Encoder System.Text.Encoding::GetEncoder() */, L_11);
 		__this->____encoder_4 = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____encoder_4), (void*)L_12);
 		bool L_13 = ___leaveOpen2;
@@ -29583,7 +29653,7 @@ IL_000e:
 		NullCheck(L_4);
 		NullCheck(L_2);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5;
-		L_5 = VirtualFuncInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*, int32_t, int32_t >::Invoke(14 /* System.Byte[] System.Text.Encoding::GetBytes(System.Char[],System.Int32,System.Int32) */, L_2, L_3, 0, ((int32_t)(((RuntimeArray*)L_4)->max_length)));
+		L_5 = VirtualFuncInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*, int32_t, int32_t >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.Char[],System.Int32,System.Int32) */, L_2, L_3, 0, ((int32_t)(((RuntimeArray*)L_4)->max_length)));
 		V_0 = L_5;
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_6 = __this->___OutStream_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = V_0;
@@ -29838,7 +29908,7 @@ IL_000e:
 		String_t* L_3 = ___value0;
 		NullCheck(L_2);
 		int32_t L_4;
-		L_4 = VirtualFuncInvoker1< int32_t, String_t* >::Invoke(10 /* System.Int32 System.Text.Encoding::GetByteCount(System.String) */, L_2, L_3);
+		L_4 = VirtualFuncInvoker1< int32_t, String_t* >::Invoke(12 /* System.Int32 System.Text.Encoding::GetByteCount(System.String) */, L_2, L_3);
 		V_0 = L_4;
 		int32_t L_5 = V_0;
 		BinaryWriter_Write7BitEncodedInt_m4E635B57122A4266BE3E01C0633BAFE001B15C76(__this, L_5, NULL);
@@ -29857,7 +29927,7 @@ IL_000e:
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_9 = __this->____encoding_3;
 		NullCheck(L_9);
 		int32_t L_10;
-		L_10 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(31 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_9, 1);
+		L_10 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(33 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_9, 1);
 		__this->____maxChars_7 = ((int32_t)(((int32_t)(((RuntimeArray*)L_8)->max_length))/L_10));
 	}
 
@@ -29881,7 +29951,7 @@ IL_0055:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_17 = __this->____largeByteBuffer_6;
 		NullCheck(L_13);
 		int32_t L_18;
-		L_18 = VirtualFuncInvoker5< int32_t, String_t*, int32_t, int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t >::Invoke(17 /* System.Int32 System.Text.Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32) */, L_13, L_14, 0, L_16, L_17, 0);
+		L_18 = VirtualFuncInvoker5< int32_t, String_t*, int32_t, int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t >::Invoke(19 /* System.Int32 System.Text.Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32) */, L_13, L_14, 0, L_16, L_17, 0);
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_19 = __this->___OutStream_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_20 = __this->____largeByteBuffer_6;
 		int32_t L_21 = V_0;
@@ -30674,6 +30744,64 @@ IL_0033:
 		return;
 	}
 }
+// System.Void System.IO.FileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStream__ctor_m158997E4E7ADD1BA5E75F4835882E32137ACB3C9 (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* __this, String_t* ___path0, int32_t ___mode1, int32_t ___access2, const RuntimeMethod* method) 
+{
+	int32_t G_B2_0 = 0;
+	int32_t G_B2_1 = 0;
+	String_t* G_B2_2 = NULL;
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* G_B2_3 = NULL;
+	int32_t G_B1_0 = 0;
+	int32_t G_B1_1 = 0;
+	String_t* G_B1_2 = NULL;
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* G_B1_3 = NULL;
+	int32_t G_B3_0 = 0;
+	int32_t G_B3_1 = 0;
+	int32_t G_B3_2 = 0;
+	String_t* G_B3_3 = NULL;
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* G_B3_4 = NULL;
+	{
+		String_t* L_0 = ___path0;
+		int32_t L_1 = ___mode1;
+		int32_t L_2 = ___access2;
+		int32_t L_3 = ___access2;
+		G_B1_0 = L_2;
+		G_B1_1 = L_1;
+		G_B1_2 = L_0;
+		G_B1_3 = __this;
+		if ((((int32_t)L_3) == ((int32_t)2)))
+		{
+			G_B2_0 = L_2;
+			G_B2_1 = L_1;
+			G_B2_2 = L_0;
+			G_B2_3 = __this;
+			goto IL_000b;
+		}
+	}
+	{
+		G_B3_0 = 1;
+		G_B3_1 = G_B1_0;
+		G_B3_2 = G_B1_1;
+		G_B3_3 = G_B1_2;
+		G_B3_4 = G_B1_3;
+		goto IL_000c;
+	}
+
+IL_000b:
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B2_0;
+		G_B3_2 = G_B2_1;
+		G_B3_3 = G_B2_2;
+		G_B3_4 = G_B2_3;
+	}
+
+IL_000c:
+	{
+		FileStream__ctor_m91A43EE01E8AB9C4B04681486E6F0B598642EA01(G_B3_4, G_B3_3, G_B3_2, G_B3_1, G_B3_0, ((int32_t)4096), (bool)0, (bool)0, NULL);
+		return;
+	}
+}
 // System.Void System.IO.FileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStream__ctor_mA39506EF7A1F33FCA0199B880BE1D82217E33EEC (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* __this, String_t* ___path0, int32_t ___mode1, int32_t ___access2, int32_t ___share3, const RuntimeMethod* method) 
 {
@@ -30784,6 +30912,88 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStream__ctor_mCF0C1E859853B23725D004
 		int32_t L_4 = ___bufferSize4;
 		int32_t L_5 = ___options5;
 		FileStream__ctor_m16C2A184C2E9D43D0DC7ECFB1659F0299400E416(__this, L_0, L_1, L_2, L_3, L_4, (bool)0, L_5, NULL);
+		return;
+	}
+}
+// System.Void System.IO.FileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32,System.Boolean,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStream__ctor_m91A43EE01E8AB9C4B04681486E6F0B598642EA01 (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* __this, String_t* ___path0, int32_t ___mode1, int32_t ___access2, int32_t ___share3, int32_t ___bufferSize4, bool ___isAsync5, bool ___anonymous6, const RuntimeMethod* method) 
+{
+	bool G_B2_0 = false;
+	int32_t G_B2_1 = 0;
+	int32_t G_B2_2 = 0;
+	int32_t G_B2_3 = 0;
+	int32_t G_B2_4 = 0;
+	String_t* G_B2_5 = NULL;
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* G_B2_6 = NULL;
+	bool G_B1_0 = false;
+	int32_t G_B1_1 = 0;
+	int32_t G_B1_2 = 0;
+	int32_t G_B1_3 = 0;
+	int32_t G_B1_4 = 0;
+	String_t* G_B1_5 = NULL;
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* G_B1_6 = NULL;
+	int32_t G_B3_0 = 0;
+	bool G_B3_1 = false;
+	int32_t G_B3_2 = 0;
+	int32_t G_B3_3 = 0;
+	int32_t G_B3_4 = 0;
+	int32_t G_B3_5 = 0;
+	String_t* G_B3_6 = NULL;
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* G_B3_7 = NULL;
+	{
+		String_t* L_0 = ___path0;
+		int32_t L_1 = ___mode1;
+		int32_t L_2 = ___access2;
+		int32_t L_3 = ___share3;
+		int32_t L_4 = ___bufferSize4;
+		bool L_5 = ___anonymous6;
+		bool L_6 = ___isAsync5;
+		G_B1_0 = L_5;
+		G_B1_1 = L_4;
+		G_B1_2 = L_3;
+		G_B1_3 = L_2;
+		G_B1_4 = L_1;
+		G_B1_5 = L_0;
+		G_B1_6 = __this;
+		if (L_6)
+		{
+			G_B2_0 = L_5;
+			G_B2_1 = L_4;
+			G_B2_2 = L_3;
+			G_B2_3 = L_2;
+			G_B2_4 = L_1;
+			G_B2_5 = L_0;
+			G_B2_6 = __this;
+			goto IL_0011;
+		}
+	}
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B1_0;
+		G_B3_2 = G_B1_1;
+		G_B3_3 = G_B1_2;
+		G_B3_4 = G_B1_3;
+		G_B3_5 = G_B1_4;
+		G_B3_6 = G_B1_5;
+		G_B3_7 = G_B1_6;
+		goto IL_0016;
+	}
+
+IL_0011:
+	{
+		G_B3_0 = ((int32_t)1073741824);
+		G_B3_1 = G_B2_0;
+		G_B3_2 = G_B2_1;
+		G_B3_3 = G_B2_2;
+		G_B3_4 = G_B2_3;
+		G_B3_5 = G_B2_4;
+		G_B3_6 = G_B2_5;
+		G_B3_7 = G_B2_6;
+	}
+
+IL_0016:
+	{
+		FileStream__ctor_m16C2A184C2E9D43D0DC7ECFB1659F0299400E416(G_B3_7, G_B3_6, G_B3_5, G_B3_4, G_B3_3, G_B3_2, G_B3_1, G_B3_0, NULL);
 		return;
 	}
 }
@@ -34477,7 +34687,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EnumerationOptions_set_Recur
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FileStatus_get_InitiallyDirectory_m6125259DBE392F2F4FC0D2FADB1E552127A22CB9_inline (FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5* __this, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = __this->___U3CInitiallyDirectoryU3Ek__BackingField_2;
+		bool L_0 = __this->___U3CInitiallyDirectoryU3Ek__BackingField_5;
 		return L_0;
 	}
 }
@@ -34485,7 +34695,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileStatus_set_InitiallyDire
 {
 	{
 		bool L_0 = ___value0;
-		__this->___U3CInitiallyDirectoryU3Ek__BackingField_2 = L_0;
+		__this->___U3CInitiallyDirectoryU3Ek__BackingField_5 = L_0;
 		return;
 	}
 }

@@ -1,27 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Video;
-using UnityEngine.SceneManagement;
+using Vimeo;
 
 public class VideoSwitch : MonoBehaviour
 {
-    private VideoPlayer video;
-    public string scene_switch;
+    private Vimeo.Player.VimeoPlayer Video;
+    public GameObject MenuShow;
+    public GameObject MenuHide;
     // Start is called before the first frame update
     void Start()
     {
-        video = GetComponent<VideoPlayer>();
+        Video = GetComponent<Vimeo.Player.VimeoPlayer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-       
-        if ((long)video.frame >= (long)(video.frameCount - 1))
+        if (Video.GetProgress() >= 0.99f)
         {
-            
-            SceneManager.LoadScene(scene_switch);
+            MenuShow.SetActive(true);
+            MenuHide.SetActive(false);
         }
     }
 }

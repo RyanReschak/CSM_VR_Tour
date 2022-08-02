@@ -2864,33 +2864,33 @@ struct Exception_t_marshaled_com
 struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 
 {
 	// Interop/Sys/FileStatus System.IO.FileStatus::_fileStatus
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_0;
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_3;
 	// System.Int32 System.IO.FileStatus::_fileStatusInitialized
-	int32_t ____fileStatusInitialized_1;
+	int32_t ____fileStatusInitialized_4;
 	// System.Boolean System.IO.FileStatus::<InitiallyDirectory>k__BackingField
-	bool ___U3CInitiallyDirectoryU3Ek__BackingField_2;
+	bool ___U3CInitiallyDirectoryU3Ek__BackingField_5;
 	// System.Boolean System.IO.FileStatus::_isDirectory
-	bool ____isDirectory_3;
+	bool ____isDirectory_6;
 	// System.Boolean System.IO.FileStatus::_exists
-	bool ____exists_4;
+	bool ____exists_7;
 };
 // Native definition for P/Invoke marshalling of System.IO.FileStatus
 struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke
 {
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_0;
-	int32_t ____fileStatusInitialized_1;
-	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField_2;
-	int32_t ____isDirectory_3;
-	int32_t ____exists_4;
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_3;
+	int32_t ____fileStatusInitialized_4;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField_5;
+	int32_t ____isDirectory_6;
+	int32_t ____exists_7;
 };
 // Native definition for COM marshalling of System.IO.FileStatus
 struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com
 {
-	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_0;
-	int32_t ____fileStatusInitialized_1;
-	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField_2;
-	int32_t ____isDirectory_3;
-	int32_t ____exists_4;
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus_3;
+	int32_t ____fileStatusInitialized_4;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField_5;
+	int32_t ____isDirectory_6;
+	int32_t ____exists_7;
 };
 
 // DigitalSalmon.LimitedSizeRenderTextureStack
