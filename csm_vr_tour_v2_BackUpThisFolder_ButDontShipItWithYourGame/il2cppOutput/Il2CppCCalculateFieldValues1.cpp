@@ -30843,15 +30843,6 @@ struct HandsManager_t0737DB8A771E2BC516413E349E0CDBBC8E5189C7_StaticFields
 	HandsManager_t0737DB8A771E2BC516413E349E0CDBBC8E5189C7* ___U3CInstanceU3Ek__BackingField_19;
 };
 
-// HideAndShowGO
-struct HideAndShowGO_t954A318CAF10A217412B790A9384E4151E45540A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.GameObject HideAndShowGO::startHide
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___startHide_4;
-	// UnityEngine.GameObject HideAndShowGO::startShow
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___startShow_5;
-};
-
 // Oculus.Interaction.PoseDetection.HmdOffset
 struct HmdOffset_tA46C7E559912B2860322E45CEACBA26A76FD147A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -43937,9 +43928,6 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5208[8] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5209[2] = 
 {
 	static_cast<int32_t>(offsetof(HandController_tD866B993094B1833037D30396BB39F6C15DDC10C, ___controller_4)),static_cast<int32_t>(offsetof(HandController_tD866B993094B1833037D30396BB39F6C15DDC10C, ___hand_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5210[2] = 
-{
-	static_cast<int32_t>(offsetof(HideAndShowGO_t954A318CAF10A217412B790A9384E4151E45540A, ___startHide_4)),static_cast<int32_t>(offsetof(HideAndShowGO_t954A318CAF10A217412B790A9384E4151E45540A, ___startShow_5)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5211[6] = 
 {
 	static_cast<int32_t>(offsetof(Keyboard_tCEE1BBD7E5377D1A4A4B50DBCB919405FCAF2435, ___sys_4)),static_cast<int32_t>(offsetof(Keyboard_tCEE1BBD7E5377D1A4A4B50DBCB919405FCAF2435, ___inputField_5)),static_cast<int32_t>(offsetof(Keyboard_tCEE1BBD7E5377D1A4A4B50DBCB919405FCAF2435, ___normalButtons_6)),static_cast<int32_t>(offsetof(Keyboard_tCEE1BBD7E5377D1A4A4B50DBCB919405FCAF2435, ___capsButtons_7)),static_cast<int32_t>(offsetof(Keyboard_tCEE1BBD7E5377D1A4A4B50DBCB919405FCAF2435, ___enterButton_8)),static_cast<int32_t>(offsetof(Keyboard_tCEE1BBD7E5377D1A4A4B50DBCB919405FCAF2435, ___caps_9)),};

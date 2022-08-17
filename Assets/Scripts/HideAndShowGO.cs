@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class HideAndShowGO : MonoBehaviour
 {
-    public GameObject startHide;
-    public GameObject startShow;
+    //public GameObject startHide;
+    //public GameObject startShow;
 
     private void Start()
     {
-        hide(startHide);
-        show(startShow);
+        //hide(startHide);
+        //show(startShow);
     }
 
     public void hide(GameObject obj)
